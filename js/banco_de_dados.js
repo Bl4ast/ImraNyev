@@ -9,7 +9,7 @@ const personagens = {
         genero: 'Masculino',
         objetivo: 'SER A ESPADA PERFEITA!!!',
         aparencia: imra_aparencia,
-        mbti: 'ENFP',
+        mbti: 'ENTP',
         
         
         perfil_bg: 'Imagem Imra/Livro.jpg', // Tem que ser exatamente o caminho da foto
