@@ -28,7 +28,7 @@ const personagens = {
         cap1_titulo: 'O INICIO',
         cap1_color: '#1E90FF', 
         cap1_glow: 'rgba(30, 144, 255, 0.7)',
-        cap1_music: 'Músicas Imra/playstarz_music-space-ambient-435262.mp3',
+        cap1_music: '',
         cap1_texto: imra_cap1_texto,
 
         // DADOS CAPÍTULO 2
