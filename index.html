@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ficha Interativa - Revelação dos Personagens</title>
+    
+    <script type="module" src="https://ajax.googleapis.com/ajax/libs/model-viewer/3.4.0/model-viewer.min.js"></script>
+    
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <div id="custom-cursor-glow"></div>
+    <div id="custom-cursor-dot"></div>
+
+    <div id="stars-container"></div>
+    <div id="particles-bg"></div>
+
+    <div class="easter-egg-toast" id="easter-egg">✦ Segredo Desbloqueado! ✦</div>
+
+    <div class="intro-screen" id="intro">
+        <div class="split-divider" id="split-divider"></div>
+        <div class="split-panel split-left" id="panel-left"></div>
+        <div class="split-panel split-right" id="panel-right"></div>
+        
+        <div class="forest-container">
+            <svg class="forest-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 200" preserveAspectRatio="none">
+                <path fill="#080c14" d="M0,200 L0,120 L30,60 L60,130 L100,50 L140,140 L180,70 L220,150 L260,40 L300,120 L340,60 L380,140 L420,50 L460,130 L500,40 L540,140 L580,70 L620,150 L660,60 L700,130 L740,50 L780,140 L820,60 L860,150 L900,50 L940,120 L980,60 L1000,100 L1000,200 Z" />
+                <path fill="#05080e" d="M0,200 L0,150 L40,90 L80,160 L120,80 L160,170 L200,90 L240,180 L280,70 L320,160 L360,100 L400,180 L440,80 L480,170 L520,90 L560,180 L600,70 L640,170 L680,100 L720,180 L760,80 L800,160 L840,90 L880,180 L920,70 L960,150 L1000,110 L1000,200 Z" />
+                <path fill="#020306" d="M0,200 L0,180 L50,120 L100,190 L150,110 L200,195 L250,130 L300,190 L350,110 L400,195 L450,120 L500,190 L550,110 L600,195 L650,130 L700,190 L750,120 L800,195 L850,110 L900,190 L950,130 L1000,170 L1000,200 Z" />
+            </svg>
+            <div class="ground"></div>
+        </div>
+
+        <button id="start-btn">Começar</button>
+        <div class="crater crater-blue" id="c-blue"></div>
+        <div class="crater crater-pink" id="c-pink"></div>
+        <div class="shockwave sw-blue" id="wave-blue"></div>
+        <div class="shockwave sw-pink" id="wave-pink"></div>
+
+        <div class="falling-star dark-blue" id="star-blue">
+            <img src="Imra.png" class="char-img" id="img-blue" alt="Imra">
+            <div class="star-text" id="text-blue"><span class="char-name">Imra</span><span class="player-name">@bl4ast</span></div>
+        </div>
+        
+        <div class="falling-star pink-star" id="star-pink">
+            <img src="Nyev.png" class="char-img" id="img-pink" alt="Nyev">
+            <div class="star-text" id="text-pink"><span class="char-name">Nyev</span><span class="player-name">@maritacas</span></div>
+        </div>
+    </div>
+
+    <div id="profile-screen">
+        <!-- NOVO: Camada de fundo do perfil -->
+        <div id="profile-bg-layer"></div>
+
+        <button id="btn-close" onclick="location.reload()">×</button>
+        <div class="profile-layout">
+            <aside class="profile-sidebar glass-card">
+                <header class="profile-header">
+                    <div class="profile-avatar" id="dyn-avatar"></div>
+                    <h1 class="profile-name" id="dyn-name">Nome</h1>
+                    <h2 class="profile-class" id="dyn-class">Classe</h2>
+                </header>
+
+                <div class="tech-info-grid">
+                    <div class="info-box"><span class="info-label">Aniversário</span><span class="info-value" id="dyn-bday">??</span></div>
+                    <div class="info-box"><span class="info-label">Altura</span><span class="info-value" id="dyn-height">??</span></div>
+                    <div class="info-box"><span class="info-label">Gênero</span><span class="info-value" id="dyn-gender">??</span></div>
+                    <div class="info-box"><span class="info-label">MBTI</span><span class="info-value" id="dyn-mbti">??</span></div>
+                    <div class="info-box info-objective"><span class="info-label">Objetivo</span><span class="info-value" id="dyn-objective">??</span></div>
+                </div>
+
+                <div class="sidebar-buttons">
+                    <!-- Personalidade agora é o botão principal -->
+                    <button class="primary-btn" id="btn-open-pers">Personalidade</button>
+                    
+                    <div class="secondary-grid">
+                        <!-- Curiosidades desceu para a grade secundária -->
+                        <button class="secondary-btn" id="btn-open-drawer">Curiosidades</button>
+                        <button class="secondary-btn" id="btn-open-vision">Visão</button>
+                        <button class="secondary-btn" id="btn-open-sign">Signo</button>
+                        <button class="secondary-btn" id="btn-open-qa">Q&A</button>
+                        <button class="secondary-btn" id="btn-open-art" style="grid-column: span 2;">Artes ✧</button>
+                    </div>
+                </div>
+            </aside>
+
+            <main class="profile-main">
+                <div class="bento-row-1">
+                    <div class="glass-card">
+                        <h3 class="section-title">Aparência</h3>
+                        <div class="appearance-text" id="dyn-appearance"></div>
+                    </div>
+                    <div class="glass-card" style="padding: 15px;">
+                        <h3 class="section-title" style="text-align: center;">Skin 3D</h3>
+                        <div class="model-container">
+                            <model-viewer id="dyn-model" src="" alt="Modelo 3D" camera-controls auto-rotate shadow-intensity="1" loading="lazy" poster=""></model-viewer>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="glass-card spotify-wrapper">
+                    <h3 class="section-title">Playlist</h3>
+                    <iframe id="dyn-spotify" src="" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+                </div>
+
+                <div class="glass-card">
+                    <h3 class="section-title">Painel de Inspirações</h3>
+                    <div class="inspirations-grid" id="dyn-inspirations"></div>
+                </div>
+
+                <button class="btn-curiosities" id="btn-open-lore" style="margin-bottom: 10px;">Ler Lore <span>→</span></button>
+
+            </main>
+        </div>
+    </div>
+
+    <div class="lightbox-overlay" id="lightbox-overlay">
+        <img src="" class="lightbox-img" id="lightbox-img" alt="Zoom da Imagem">
+    </div>
+
+    <div class="drawer-overlay" id="drawer-bg"></div>
+    <div class="curiosity-drawer" id="curiosity-panel">
+        <div class="drawer-header"><h2 class="drawer-title">Curiosidades</h2><button class="btn-close-drawer" id="btn-close-drawer">×</button></div>
+        <div class="curiosity-list" id="dyn-curiosities"></div>
+    </div>
+
+    <div class="pers-modal-overlay" id="pers-modal">
+        <div class="pers-modal-content">
+            <button class="btn-close-pers" id="btn-close-pers">×</button>
+            <h1 class="pers-title" id="dyn-pers-title">Título</h1>
+            <h2 class="pers-subtitle typewriter-target" id="dyn-pers-subtitle">Subtítulo</h2>
+            <div class="pers-text-box" id="dyn-pers-text"></div>
+        </div>
+    </div>
+
+    <div class="pers-modal-overlay" id="vision-modal">
+        <div class="pers-modal-content">
+            <button class="btn-close-pers" id="btn-close-vision">×</button>
+            <h1 class="pers-title" id="dyn-vision-title-modal">Visão</h1>
+            <h2 class="pers-subtitle typewriter-target" data-fulltext="⁺˚⋆｡°✩₊✩°｡⋆˚⁺">⁺˚⋆｡°✩₊✩°｡⋆˚⁺</h2>
+            <div class="pers-text-box" id="dyn-vision-text-modal"></div>
+        </div>
+    </div>
+
+    <div class="pers-modal-overlay" id="sign-modal">
+        <div class="pers-modal-content">
+            <button class="btn-close-pers" id="btn-close-sign">×</button>
+            <h1 class="pers-title">Signo</h1>
+            <h2 class="pers-subtitle typewriter-target" data-fulltext="Por que combina?">Por que combina?</h2>
+            <div class="pers-text-box" id="dyn-sign-text-modal"></div>
+        </div>
+    </div>
+
+    <div class="pers-modal-overlay" id="qa-modal">
+        <div class="pers-modal-content">
+            <button class="btn-close-pers" id="btn-close-qa">×</button>
+            <h1 class="pers-title">Q&A</h1>
+            <h2 class="pers-subtitle typewriter-target" data-fulltext="⁺˚⋆｡°✩₊✩°｡⋆˚⁺">⁺˚⋆｡°✩₊✩°｡⋆˚⁺</h2>
+            <div class="curiosity-list" id="dyn-qa-modal" style="margin-top: 30px;"></div>
+        </div>
+    </div>
+
+    <div class="pers-modal-overlay" id="art-modal">
+        <div class="pers-modal-content" style="max-width: 1000px;">
+            <button class="btn-close-pers" id="btn-close-art">×</button>
+            <h1 class="pers-title">Artes ✧</h1>
+            <h2 class="pers-subtitle typewriter-target" data-fulltext="⁺˚⋆｡°✩₊✩°｡⋆˚⁺">⁺˚⋆｡°✩₊✩°｡⋆˚⁺</h2>
+            <div class="art-grid" id="dyn-art-gallery"></div>
+        </div>
+    </div>
+
+    <div id="cap1-screen" class="chapter-screen">
+        <div id="cap1-bg" class="extra-bg-blur"></div>
+        <div class="extra-scroll-area">
+            <button class="lore-fixed-btn btn-back-notion" id="btn-back-cap1">← Voltar</button>
+            
+            <div class="music-controls">
+                <input type="range" class="volume-slider" id="vol-cap1" min="0" max="1" step="0.01" value="0.15" title="Volume da Música">
+                <button class="lore-fixed-btn btn-music-lore" id="btn-music-cap1">▶ Soundtrack</button>
+            </div>
+            
+            <div class="notion-cover" id="dyn-cap1-cover"></div>
+            <div class="notion-container">
+                <div class="notion-icon" id="dyn-cap1-icon"></div>
+                <h1 class="notion-title" id="dyn-cap1-title">Capítulo 1</h1>
+                <div class="notion-content" id="dyn-cap1-body"></div>
+                
+                <button class="btn-curiosities" id="btn-next-cap" style="margin-top: 40px; width: 100%;">Próximo Capítulo <span>→</span></button>
+            </div>
+        </div>
+    </div>
+
+    <div id="cap2-screen" class="chapter-screen">
+        <div id="cap2-bg" class="extra-bg-blur"></div>
+        <div class="extra-scroll-area">
+            <button class="lore-fixed-btn btn-back-notion" id="btn-back-cap2">← Voltar</button>
+            
+            <div class="music-controls">
+                <input type="range" class="volume-slider" id="vol-cap2" min="0" max="1" step="0.01" value="0.15" title="Volume da Música">
+                <button class="lore-fixed-btn btn-music-lore" id="btn-music-cap2">▶ Soundtrack</button>
+            </div>
+
+            <div class="notion-cover" id="dyn-cap2-cover"></div>
+            <div class="notion-container">
+                <div class="notion-icon" id="dyn-cap2-icon"></div>
+                <h1 class="notion-title" id="dyn-cap2-title">Capítulo 2</h1>
+                <div class="notion-content" id="dyn-cap2-body"></div>
+                
+                <button class="btn-curiosities" id="btn-prev-cap" style="margin-top: 40px; width: 100%;"><span>←</span> Capítulo Anterior</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/imra_lore.js"></script>
+    <script src="js/imra_perfil.js"></script>
+    <script src="js/imra_extras.js"></script>
+
+    <script src="js/nyev_lore.js"></script>
+    <script src="js/nyev_perfil.js"></script>
+    <script src="js/nyev_extras.js"></script>
+
+    <script src="js/banco_de_dados.js"></script>
+
+    <script src="js/main.js"></script>
+
+</body>
+</html>
