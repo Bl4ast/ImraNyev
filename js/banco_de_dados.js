@@ -106,7 +106,7 @@ const personagens = {
         
         modelo3d: 'link_do_modelo_nyev.gltf',
         spotify: 'https://open.spotify.com/embed/playlist/5zcZX7r8pxwpwAnJ8Ffw6C?utm_source=generator',
-        inspiracoes: ['Imagem Nyev/Bochhi.jpg', 'Imagem Nyev/Boku.jpg', 'Imagem Nyev/Mds.jpg', 'Imagem Nyev/Rosinha.jpg', 'Imagem Nyev/Mia.jpg', 'Imagem Nyev/waguri.png', 'Imagem Nyev/kyomoto.png'],
+        inspiracoes: ['Imagem Nyev/Bochhi.jpg', 'Imagem Nyev/Boku.jpg', 'Imagem Nyev/Rosinha.jpg', 'Imagem Nyev/Mia.jpg', 'Imagem Nyev/waguri.png', 'Imagem Nyev/kyomoto.png'],
         
         artes: [
             { src: 'https://via.placeholder.com/300', artist: 'nyev_drawer' }
