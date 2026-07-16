@@ -33,12 +33,12 @@ const personagens = {
 
         // DADOS CAPÍTULO 2
         cap2_bg_wallpaper: 'Imagem Imra/Arvores2.jpg', 
-        cap2_bg_color: 'rgba(4, 55, 4, 0.8)', 
+        cap2_bg_color: 'rgba(0, 5, 19, 0.8)', 
         cap2_cover: 'Imagem Imra/Floresta.jpg',
         cap2_icon: '🌲', 
         cap2_titulo: 'A FLORESTA',
         cap2_color: '#1dc46bcc', 
-        cap2_glow: 'rgba(4, 55, 4, 0.8)',
+        cap2_glow: 'rgba(1, 6, 17, 0.8)',
         cap2_music: '', 
         cap2_texto: imra_cap2_texto,
 
@@ -86,7 +86,7 @@ const personagens = {
         cap1_titulo: 'Capítulo 1: Rosinha',
         cap1_color: '#FF1493',
         cap1_glow: 'rgba(255, 20, 147, 0.7)',
-        cap1_music: 'https://assets.mixkit.co/active_storage/sfx/135/135-preview.mp3', 
+        cap1_music: '', 
         cap1_texto: nyev_cap1_texto,
 
         // DADOS CAPÍTULO 2
@@ -97,7 +97,7 @@ const personagens = {
         cap2_titulo: 'Capítulo 2: Segredos',
         cap2_color: '#FF69B4',
         cap2_glow: 'rgba(255, 105, 180, 0.7)',
-        cap2_music: 'https://assets.mixkit.co/active_storage/sfx/135/135-preview.mp3', 
+        cap2_music: '', 
         cap2_texto: nyev_cap2_texto,
         
         pers_titulo: '✩₊˚.⋆☾⋆⁺₊✧',
