@@ -52,10 +52,11 @@
     </div>
 
     <div id="profile-screen">
-        <!-- NOVO: Camada de fundo do perfil -->
         <div id="profile-bg-layer"></div>
 
+        <button id="btn-help">?</button>
         <button id="btn-close" onclick="location.reload()">×</button>
+        
         <div class="profile-layout">
             <aside class="profile-sidebar glass-card">
                 <header class="profile-header">
@@ -73,11 +74,9 @@
                 </div>
 
                 <div class="sidebar-buttons">
-                    <!-- Personalidade agora é o botão principal -->
                     <button class="primary-btn" id="btn-open-pers">Personalidade</button>
                     
                     <div class="secondary-grid">
-                        <!-- Curiosidades desceu para a grade secundária -->
                         <button class="secondary-btn" id="btn-open-drawer">Curiosidades</button>
                         <button class="secondary-btn" id="btn-open-vision">Visão</button>
                         <button class="secondary-btn" id="btn-open-sign">Signo</button>
@@ -110,15 +109,32 @@
                     <h3 class="section-title">Painel de Inspirações</h3>
                     <div class="inspirations-grid" id="dyn-inspirations"></div>
                 </div>
-
+                
                 <button class="btn-curiosities" id="btn-open-lore" style="margin-bottom: 10px;">Ler Lore <span>→</span></button>
-
             </main>
         </div>
     </div>
 
     <div class="lightbox-overlay" id="lightbox-overlay">
-        <img src="" class="lightbox-img" id="lightbox-img" alt="Zoom da Imagem">
+        <!-- Adicionamos esta classe lightbox-content para envolver os dois -->
+        <div class="lightbox-content" id="lightbox-content">
+            <img src="" class="lightbox-img" id="lightbox-img" alt="Zoom da Imagem">
+            <div id="lightbox-caption" class="lightbox-caption"></div>
+        </div>
+    </div>
+
+    <div class="pers-modal-overlay" id="help-modal">
+        <div class="pers-modal-content">
+            <button class="btn-close-pers" id="btn-close-help">×</button>
+            <h1 class="pers-title">Regras do Forms</h1>
+            <h2 class="pers-subtitle">✩₊˚.⋆☾⋆⁺₊✧</h2>
+            <div class="pers-text-box" style="text-align: left;">
+                <p><strong>✦ 1:</strong> Ao passar seu mouse em cima das palavras sublinhadas, fichas e/ou curiosidades irão aparecer! Recomendamos também que cheque constantemente durante a lore a ficha de personagens sublinhados; elas são atualizadas conforme o desenrolar da história.</p>
+                <p><strong>✦ 2:</strong> Existe um controle de música no canto superior direito, na aba "lore". Nele, você pode regular o volume da música e pausar ou dar play.</p>
+                <p><strong>✦ 3:</strong> Clique nas imagens de inspiração para os personagens; dentro delas, damos uma explicação maior do porquê escolhemos tais personagens.</p>
+                <p><small><b>✦ Extra:</b> Tente clicar três vezes no ícone do perfil e tenha acesso a uma surpresa!</small></p>
+            </div>
+        </div>
     </div>
 
     <div class="drawer-overlay" id="drawer-bg"></div>
@@ -172,47 +188,7 @@
         </div>
     </div>
 
-    <div id="cap1-screen" class="chapter-screen">
-        <div id="cap1-bg" class="extra-bg-blur"></div>
-        <div class="extra-scroll-area">
-            <button class="lore-fixed-btn btn-back-notion" id="btn-back-cap1">← Voltar</button>
-            
-            <div class="music-controls">
-                <input type="range" class="volume-slider" id="vol-cap1" min="0" max="1" step="0.01" value="0.15" title="Volume da Música">
-                <button class="lore-fixed-btn btn-music-lore" id="btn-music-cap1">▶ Soundtrack</button>
-            </div>
-            
-            <div class="notion-cover" id="dyn-cap1-cover"></div>
-            <div class="notion-container">
-                <div class="notion-icon" id="dyn-cap1-icon"></div>
-                <h1 class="notion-title" id="dyn-cap1-title">Capítulo 1</h1>
-                <div class="notion-content" id="dyn-cap1-body"></div>
-                
-                <button class="btn-curiosities" id="btn-next-cap" style="margin-top: 40px; width: 100%;">Próximo Capítulo <span>→</span></button>
-            </div>
-        </div>
-    </div>
-
-    <div id="cap2-screen" class="chapter-screen">
-        <div id="cap2-bg" class="extra-bg-blur"></div>
-        <div class="extra-scroll-area">
-            <button class="lore-fixed-btn btn-back-notion" id="btn-back-cap2">← Voltar</button>
-            
-            <div class="music-controls">
-                <input type="range" class="volume-slider" id="vol-cap2" min="0" max="1" step="0.01" value="0.15" title="Volume da Música">
-                <button class="lore-fixed-btn btn-music-lore" id="btn-music-cap2">▶ Soundtrack</button>
-            </div>
-
-            <div class="notion-cover" id="dyn-cap2-cover"></div>
-            <div class="notion-container">
-                <div class="notion-icon" id="dyn-cap2-icon"></div>
-                <h1 class="notion-title" id="dyn-cap2-title">Capítulo 2</h1>
-                <div class="notion-content" id="dyn-cap2-body"></div>
-                
-                <button class="btn-curiosities" id="btn-prev-cap" style="margin-top: 40px; width: 100%;"><span>←</span> Capítulo Anterior</button>
-            </div>
-        </div>
-    </div>
+    <div id="lore-wrapper"></div>
 
     <script src="js/imra_lore.js"></script>
     <script src="js/imra_perfil.js"></script>
@@ -223,8 +199,7 @@
     <script src="js/nyev_extras.js"></script>
 
     <script src="js/banco_de_dados.js"></script>
-
+    <script src="js/sistema_lore.js"></script>
     <script src="js/main.js"></script>
-
 </body>
 </html>
