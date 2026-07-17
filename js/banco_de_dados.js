@@ -11,8 +11,7 @@ const personagens = {
         aparencia: imra_aparencia,
         mbti: 'ENTP',
         
-        
-        perfil_bg: 'Imagem Imra/Livro.jpg', // Tem que ser exatamente o caminho da foto
+        perfil_bg: 'Imagem Imra/Livro.jpg', 
         perfil_bg_filtros: 'brightness(0.3) saturate(1.5) blur(6px)',
 
         signo_desc: imra_signo_desc,
@@ -48,12 +47,20 @@ const personagens = {
         
         modelo3d: 'REapercommteste(3).gltf',
         spotify: 'https://open.spotify.com/embed/playlist/0PYXQb6ggEP8toPZxmnihM?utm_source=generator',
-        inspiracoes: ['Imagem Imra/Vanitas.jpg', 'Imagem Imra/Itadori.jpg', 'Imagem Imra/RinO.jpg', 'Imagem Imra/Shinra.jpg', 'Imagem Imra/Flins.jpg', 'Imagem Imra/Ace.jpg'],
+        
+        // INSPIRAÇÕES ATUALIZADAS
+        inspiracoes: [
+            { src: 'Imagem Imra/Vanitas.jpg', desc: 'TESTE TESTE TESTE TESTE TESTE TESTE TESTE TESTE TESTE TESTE TESTE TESTE TESTE TESTE TESTE TESTE TESTE TESTE TESTE TESTE' },
+            { src: 'Imagem Imra/Itadori.jpg', desc: 'TESTE TESTE' },
+            { src: 'Imagem Imra/RinO.jpg', desc: 'TESTE TESTE' },
+            { src: 'Imagem Imra/Shinra.jpg', desc: 'TESTE TESTE' },
+            { src: 'Imagem Imra/Flins.jpg', desc: 'TESTE TESTE' },
+            { src: 'Imagem Imra/Ace.jpg', desc: 'TESTE TESTE' }
+        ],
         
         artes: [
             { src: 'Imagem Imra/Imra Concept Eli.png', artist: 'eli_walker' },
             { src: 'Imagem Imra/Ambos Eli.png', artist: 'eli_walker' },
-            
         ],
 
         curiosidades: imra_curiosidades
@@ -106,7 +113,16 @@ const personagens = {
         
         modelo3d: 'link_do_modelo_nyev.gltf',
         spotify: 'https://open.spotify.com/embed/playlist/5zcZX7r8pxwpwAnJ8Ffw6C?utm_source=generator',
-        inspiracoes: ['Imagem Nyev/Bochhi.jpg', 'Imagem Nyev/Boku.jpg', 'Imagem Nyev/Rosinha.jpg', 'Imagem Nyev/Mia.jpg', 'Imagem Nyev/waguri.png', 'Imagem Nyev/kyomoto.png'],
+        
+        // INSPIRAÇÕES ATUALIZADAS
+        inspiracoes: [
+            { src: 'Imagem Nyev/Bochhi.jpg', desc: 'TESTE TESTE' },
+            { src: 'Imagem Nyev/Boku.jpg', desc: 'TESTE TESTE' },
+            { src: 'Imagem Nyev/Rosinha.jpg', desc: 'TESTE TESTE' },
+            { src: 'Imagem Nyev/Mia.jpg', desc: 'TESTE TESTE' },
+            { src: 'Imagem Nyev/waguri.png', desc: 'TESTE TESTE' },
+            { src: 'Imagem Nyev/kyomoto.png', desc: 'TESTE TESTE' }
+        ],
         
         artes: [
             { src: 'https://via.placeholder.com/300', artist: 'nyev_drawer' }
