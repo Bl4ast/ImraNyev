@@ -17,12 +17,18 @@ const imra_curiosidades = [
 ];
 
 const imra_qa = [
-    { q: 'Quem é Imra quando não existe ninguém para proteger?', a: 'Sempre existe alguém que precisa ser protegido.' },
-    { q: 'Se tirassem sua força e sua capacidade de lutar, o que restaria de você?', a: 'Eu não preciso apenas de força para proteger alguém. Eu daria um jeito.' },
-    { q: 'Por que você acredita que precisa ser responsável por ela?', a: 'Porque, quando olho para ela, sinto um propósito. É como uma necessidade, um instinto familiar.' },
-    { q: 'O que você faria se descobrisse que sua proteção está machucando ela?', a: 'Se está machucando, então não é proteção. Eu encontraria outra forma de mantê-la segura.' },
-    { q: 'Qual seria sua maior derrota?', a: 'Não ser suficiente.' },
-    { q: 'Você luta porque ama ou porque tem medo de perder?', a: 'Acho que pelos dois. Muitas vezes meu corpo age por conta própria, e eu não me importo muito com as consequências.' },
-    { q: 'Qual é a mentira que você conta para continuar seguindo em frente?', a: 'Que tudo vai dar certo, desde que eu continue tentando.' },
-    { q: 'Se proteger alguém significasse se tornar um monstro, você aceitaria?', a: 'Se esse for o preço, então eu serei um monstro.' },
+    { q: 'Acredita em finais felizes?', a: 'Acredito que, se eu batalhar o suficiente, isso pode se tornar realidade. Mesmo que demore, vale a pena continuar tentando.' },
+    { q: 'Acredita em amor à primeira vista?', a: 'Nunca senti o que chamam de amor, mas ouvi tantas histórias sobre isso que espero viver algo assim um dia.' },
+    { q: 'O que lhe faz sentir envergonhado?', a: 'Não sou alguém que fica envergonhado com facilidade. Mas, quando fico muito próximo das pessoas, me dá um certo frio na barriga.' },
+    { q: 'Qual a coisa mais bela que já viu?', a: 'Ah... existem muitas coisas lindas no mundo. Mas passei tanto tempo olhando para o céu que ele acabou se tornando minha vista favorita.' },
+    { q: 'O que considera bonito nos outros?', a: 'Acho muito bonito quando alguém sabe o que quer e segue em frente sem hesitar. Sobre aparência, nunca fui muito exigente.' },
+    { q: 'Como seria seu final feliz?', a: 'Ter finalmente o que chamam de casa. Um lugar onde eu possa descansar sabendo que todos estão bem.' },
+    { q: 'Você cumpre suas promessas?', a: 'Promessas foram feitas para não serem quebradas. Então não vejo motivo para prometer algo que não posso cumprir.' },
+    { q: 'Qual seu maior medo?', a: 'Falhar em proteger a Nyev. Quero ser a ferramenta capaz de trazer felicidade para ela.' },
+    { q: 'Quem é Imra quando não existe ninguém para proteger?', a: 'Minha vida sempre foi proteger alguém.. Honestamente, não tenho a resposta para isso.' },
+    { q: 'Se tirassem sua força e sua capacidade de lutar, o que restaria de você?', a: 'Eu não preciso apenas de força para proteger alguém. Enquanto eu puder agir, vou dar um jeito.' },
+    { q: 'Por que você acredita que precisa ser responsável pela Nyev?', a: 'Porque, quando olho para ela, sinto um propósito. É como um instinto que nunca consegui explicar.' },
+    { q: 'Qual seria sua maior derrota?', a: 'Não ser suficiente. Saber que alguém sofreu porque eu falhei.' },
+    { q: 'Qual é a mentira que você conta para continuar seguindo em frente?', a: 'Que tudo vai dar certo, desde que eu continue tentando. É nisso que escolho acreditar.' },
+    { q: 'Se proteger alguém significasse se tornar um monstro, você aceitaria?', a: 'Se esse for o preço, então eu serei um monstro. Desde que ela possa continuar sorrindo.' },
 ];
