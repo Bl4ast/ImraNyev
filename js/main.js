@@ -3,9 +3,6 @@ let currentLoadedCharacter = 'imra';
 const cursorDot = document.getElementById('custom-cursor-dot');
 const cursorGlow = document.getElementById('custom-cursor-glow');
 
-const cap1Bg = document.getElementById('cap1-bg');
-const cap2Bg = document.getElementById('cap2-bg');
-
 let mouseX = window.innerWidth / 2;
 let mouseY = window.innerHeight / 2;
 let rafAgendado = false;
@@ -26,17 +23,6 @@ document.addEventListener('mousemove', (e) => {
                 document.getElementById('stars-container').style.transform = `translate3d(${px*2}px, ${py*2}px, 0)`;
             }
 
-            if (document.getElementById('cap1-screen').classList.contains('show-chapter')) {
-                const pxLore = -(mouseX - window.innerWidth / 2) / 50; 
-                const pyLore = -(mouseY - window.innerHeight / 2) / 50;
-                cap1Bg.style.transform = `translate3d(${pxLore}px, ${pyLore}px, 0)`;
-            }
-            if (document.getElementById('cap2-screen').classList.contains('show-chapter')) {
-                const pxLore = -(mouseX - window.innerWidth / 2) / 50;
-                const pyLore = -(mouseY - window.innerHeight / 2) / 50;
-                cap2Bg.style.transform = `translate3d(${pxLore}px, ${pyLore}px, 0)`;
-            }
-
             rafAgendado = false;
         });
         rafAgendado = true;
@@ -44,105 +30,16 @@ document.addEventListener('mousemove', (e) => {
 });
 
 document.addEventListener('mouseover', (e) => {
-    if (e.target.closest('button, .split-panel, .insp-item, .tooltip-word, .glitch-text, #dyn-avatar, .volume-slider, .lightbox-img, .art-item')) {
+    if (e.target.closest('button, .split-panel, .insp-item, .tooltip-word, .glitch-text, #dyn-avatar, .lightbox-img, .art-item')) {
         document.body.classList.add('cursor-hover');
     }
 });
 
 document.addEventListener('mouseout', (e) => {
-    if (e.target.closest('button, .split-panel, .insp-item, .tooltip-word, .glitch-text, #dyn-avatar, .volume-slider, .lightbox-img, .art-item')) {
+    if (e.target.closest('button, .split-panel, .insp-item, .tooltip-word, .glitch-text, #dyn-avatar, .lightbox-img, .art-item')) {
         document.body.classList.remove('cursor-hover');
     }
 });
-
-const loreAudio = new Audio();
-loreAudio.loop = true;
-loreAudio.volume = 0.15; 
-
-const volumeSliders = document.querySelectorAll('.volume-slider');
-let fadeInterval;
-
-volumeSliders.forEach(slider => {
-    slider.value = 0.15;
-    slider.addEventListener('input', (e) => {
-        clearInterval(fadeInterval);
-        const vol = parseFloat(e.target.value);
-        loreAudio.volume = vol;
-        volumeSliders.forEach(s => s.value = vol);
-    });
-});
-
-function resetMusicButtons() {
-    document.querySelectorAll('.btn-music-lore').forEach(btn => {
-        btn.innerHTML = '▶ Soundtrack';
-        btn.classList.remove('playing');
-    });
-}
-
-function playPauseMusic(btnId, src, isAutoPlay = false) {
-    const btn = document.getElementById(btnId);
-    const currentSrc = loreAudio.src;
-    const newSrc = new URL(src, window.location.href).href;
-    
-    let targetVol = 0.15;
-    const sliderId = btnId.replace('btn-music-', 'vol-');
-    const sliderEl = document.getElementById(sliderId);
-    if (sliderEl) targetVol = parseFloat(sliderEl.value);
-
-    if (currentSrc !== newSrc) {
-        loreAudio.src = src;
-    }
-
-    if (isAutoPlay) {
-        if (loreAudio.paused || currentSrc !== newSrc) {
-            loreAudio.volume = 0;
-            loreAudio.play().then(() => {
-                resetMusicButtons();
-                btn.innerHTML = '⏸ Pausar Soundtrack';
-                btn.classList.add('playing');
-                
-                clearInterval(fadeInterval);
-                let currentVol = 0;
-                const stepTime = 50; 
-                const fadeDuration = 2000;
-                const stepAmount = targetVol / (fadeDuration / stepTime);
-
-                fadeInterval = setInterval(() => {
-                    currentVol += stepAmount;
-                    if (currentVol >= targetVol) {
-                        currentVol = targetVol;
-                        clearInterval(fadeInterval);
-                    }
-                    loreAudio.volume = currentVol;
-                }, stepTime);
-
-            }).catch((err) => {
-                console.log("Autoplay bloqueado pelo navegador. Aguardando interação do usuário.");
-            });
-        }
-    } else {
-        if (loreAudio.paused || currentSrc !== newSrc) {
-            clearInterval(fadeInterval);
-            loreAudio.volume = targetVol; 
-            loreAudio.play().then(() => {
-                resetMusicButtons();
-                btn.innerHTML = '⏸ Pausar Soundtrack';
-                btn.classList.add('playing');
-            }).catch(()=>{});
-        } else {
-            clearInterval(fadeInterval);
-            loreAudio.pause();
-            btn.innerHTML = '▶ Soundtrack';
-            btn.classList.remove('playing');
-        }
-    }
-}
-
-function stopLoreMusic() {
-    clearInterval(fadeInterval);
-    loreAudio.pause();
-    resetMusicButtons();
-}
 
 const starsContainer = document.getElementById('stars-container');
 for (let i = 0; i < 40; i++) {
@@ -185,7 +82,6 @@ document.getElementById('dyn-avatar').addEventListener('click', () => {
         avatarClickTimer = setTimeout(() => { avatarClickCount = 0; }, 1000);
     }
 });
-
 
 const btn = document.getElementById('start-btn');
 const blueStar = document.getElementById('star-blue'); 
@@ -254,41 +150,7 @@ function carregarPerfil(chavePersonagem) {
 
     document.getElementById('dyn-pers-subtitle').setAttribute('data-fulltext', dados.pers_subtitulo);
 
-    function setupChapterIcon(elementId, iconData, fallbackImage) {
-        const el = document.getElementById(elementId);
-        const icon = iconData || fallbackImage;
-        const isImage = icon.match(/\.(jpeg|jpg|gif|png|svg|webp)$/i) || icon.startsWith('http') || icon.startsWith('data:image');
-        
-        if (isImage) {
-            el.style.backgroundImage = `url('${icon}')`;
-            el.innerHTML = '';
-        } else {
-            el.style.backgroundImage = 'none';
-            el.innerHTML = icon;
-            if(icon.length > 2) el.style.fontSize = '1.8rem';
-            else el.style.fontSize = '4rem';
-        }
-    }
-
-    document.getElementById('cap1-screen').style.setProperty('--theme-color', dados.cap1_color || 'var(--theme-color)');
-    document.getElementById('cap1-screen').style.setProperty('--theme-glow', dados.cap1_glow || 'var(--theme-glow)');
-    document.getElementById('btn-music-cap1').onclick = () => playPauseMusic('btn-music-cap1', dados.cap1_music, false);
-
-    document.getElementById('cap1-bg').style.backgroundImage = `linear-gradient(${dados.cap1_bg_color}, ${dados.cap1_bg_color}), url('${dados.cap1_bg_wallpaper}')`;
-    document.getElementById('dyn-cap1-cover').style.backgroundImage = `url('${dados.cap1_cover}')`;
-    setupChapterIcon('dyn-cap1-icon', dados.cap1_icon, dados.avatar);
-    document.getElementById('dyn-cap1-title').innerText = dados.cap1_titulo;
-    document.getElementById('dyn-cap1-body').innerHTML = dados.cap1_texto;
-
-    document.getElementById('cap2-screen').style.setProperty('--theme-color', dados.cap2_color || 'var(--theme-color)');
-    document.getElementById('cap2-screen').style.setProperty('--theme-glow', dados.cap2_glow || 'var(--theme-glow)');
-    document.getElementById('btn-music-cap2').onclick = () => playPauseMusic('btn-music-cap2', dados.cap2_music, false);
-
-    document.getElementById('cap2-bg').style.backgroundImage = `linear-gradient(${dados.cap2_bg_color}, ${dados.cap2_bg_color}), url('${dados.cap2_bg_wallpaper}')`;
-    document.getElementById('dyn-cap2-cover').style.backgroundImage = `url('${dados.cap2_cover}')`;
-    setupChapterIcon('dyn-cap2-icon', dados.cap2_icon, dados.avatar);
-    document.getElementById('dyn-cap2-title').innerText = dados.cap2_titulo;
-    document.getElementById('dyn-cap2-body').innerHTML = dados.cap2_texto;
+    carregarLoreDinamica(dados);
 
     document.getElementById('dyn-pers-title').innerText = dados.pers_titulo;
     document.getElementById('dyn-pers-text').innerHTML = dados.pers_texto;
@@ -302,11 +164,14 @@ function carregarPerfil(chavePersonagem) {
 
     const inspGrid = document.getElementById('dyn-inspirations');
     inspGrid.innerHTML = '';
-    dados.inspiracoes.forEach(imgLink => {
+    dados.inspiracoes.forEach(insp => {
+        let imgSrc = typeof insp === 'string' ? insp : insp.src;
+        let imgDesc = typeof insp === 'string' ? '' : (insp.desc || '');
+
         const div = document.createElement('div');
         div.className = 'insp-item';
-        div.style.backgroundImage = `url('${imgLink}')`;
-        div.addEventListener('click', () => openLightbox(imgLink));
+        div.style.backgroundImage = `url('${imgSrc}')`;
+        div.addEventListener('click', () => openLightbox(imgSrc, imgDesc));
         inspGrid.appendChild(div);
     });
 
@@ -320,7 +185,8 @@ function carregarPerfil(chavePersonagem) {
             const artItem = document.createElement('div');
             artItem.className = 'art-item';
             artItem.style.backgroundImage = `url('${arte.src}')`;
-            artItem.addEventListener('click', () => openLightbox(arte.src));
+            
+            artItem.addEventListener('click', () => openLightbox(arte.src, `Arte por @${arte.artist}`)); 
 
             const credit = document.createElement('div');
             credit.className = 'art-credit';
@@ -346,19 +212,25 @@ function carregarPerfil(chavePersonagem) {
 
 const lightboxOverlay = document.getElementById('lightbox-overlay');
 const lightboxImg = document.getElementById('lightbox-img');
+const lightboxCaption = document.getElementById('lightbox-caption'); 
 
-function openLightbox(src) {
+function openLightbox(src, desc = '') {
     lightboxImg.src = src;
+    lightboxCaption.innerHTML = desc; 
+    lightboxCaption.style.display = desc ? 'block' : 'none'; 
     lightboxOverlay.classList.add('show');
 }
 
 function closeLightbox() {
     lightboxOverlay.classList.remove('show');
-    setTimeout(() => { lightboxImg.src = ''; }, 300);
+    setTimeout(() => { 
+        lightboxImg.src = ''; 
+        lightboxCaption.innerHTML = ''; 
+    }, 300);
 }
 
 lightboxOverlay.addEventListener('click', (e) => {
-    if (e.target === lightboxOverlay) closeLightbox();
+    if (e.target === lightboxOverlay || e.target === lightboxCaption) closeLightbox();
 });
 
 document.addEventListener('keydown', (e) => {
@@ -366,7 +238,6 @@ document.addEventListener('keydown', (e) => {
         closeLightbox();
     }
 });
-
 
 function diveIntoStar(clickedContainer, otherContainer, crater, otherCrater, chave) {
     panelLeft.style.pointerEvents = 'none'; panelRight.style.pointerEvents = 'none';
@@ -439,13 +310,15 @@ function setupModal(btnId, closeId, modalId) {
     const closeBtn = document.getElementById(closeId);
     const modal = document.getElementById(modalId);
 
-    btn.addEventListener('click', () => {
-        modal.classList.add('open');
-        const typeTarget = modal.querySelector('.typewriter-target');
-        if(typeTarget) startTypewriter(typeTarget);
-    });
-    closeBtn.addEventListener('click', () => modal.classList.remove('open'));
-    modal.addEventListener('click', (e) => { if (e.target === modal) modal.classList.remove('open'); });
+    if (btn && closeBtn && modal) {
+        btn.addEventListener('click', () => {
+            modal.classList.add('open');
+            const typeTarget = modal.querySelector('.typewriter-target');
+            if(typeTarget) startTypewriter(typeTarget);
+        });
+        closeBtn.addEventListener('click', () => modal.classList.remove('open'));
+        modal.addEventListener('click', (e) => { if (e.target === modal) modal.classList.remove('open'); });
+    }
 }
 
 setupModal('btn-open-pers', 'btn-close-pers', 'pers-modal');
@@ -453,64 +326,12 @@ setupModal('btn-open-vision', 'btn-close-vision', 'vision-modal');
 setupModal('btn-open-sign', 'btn-close-sign', 'sign-modal');
 setupModal('btn-open-qa', 'btn-close-qa', 'qa-modal');
 setupModal('btn-open-art', 'btn-close-art', 'art-modal');
-
-let loreMusicTimeout;
+setupModal('btn-help', 'btn-close-help', 'help-modal');
 
 const btnOpenLore = document.getElementById('btn-open-lore');
-const cap1Screen = document.getElementById('cap1-screen');
-const cap2Screen = document.getElementById('cap2-screen');
-const btnBackCap1 = document.getElementById('btn-back-cap1');
-const btnBackCap2 = document.getElementById('btn-back-cap2');
-const btnNextCap = document.getElementById('btn-next-cap');
-const btnPrevCap = document.getElementById('btn-prev-cap');
-
-btnOpenLore.addEventListener('click', () => { 
-    cap1Screen.classList.add('show-chapter'); 
-    cap1Screen.querySelector('.extra-scroll-area').scrollTop = 0;
-    
-    clearTimeout(loreMusicTimeout);
-    loreMusicTimeout = setTimeout(() => {
-        playPauseMusic('btn-music-cap1', personagens[currentLoadedCharacter].cap1_music, true);
-    }, 1000);
-});
-
-btnBackCap1.addEventListener('click', () => { 
-    cap1Screen.classList.remove('show-chapter'); 
-    stopLoreMusic(); 
-    clearTimeout(loreMusicTimeout);
-    cap1Bg.style.transform = `translate3d(0px, 0px, 0)`; 
-});
-
-btnBackCap2.addEventListener('click', () => { 
-    cap2Screen.classList.remove('show-chapter'); 
-    stopLoreMusic(); 
-    clearTimeout(loreMusicTimeout);
-    cap2Bg.style.transform = `translate3d(0px, 0px, 0)`; 
-});
-
-btnNextCap.addEventListener('click', () => {
-    cap1Screen.classList.remove('show-chapter');
-    cap2Screen.classList.add('show-chapter');
-    cap2Screen.querySelector('.extra-scroll-area').scrollTop = 0; 
-    stopLoreMusic();
-    
-    clearTimeout(loreMusicTimeout);
-    loreMusicTimeout = setTimeout(() => {
-        playPauseMusic('btn-music-cap2', personagens[currentLoadedCharacter].cap2_music, true);
-    }, 1000);
-});
-
-btnPrevCap.addEventListener('click', () => {
-    cap2Screen.classList.remove('show-chapter');
-    cap1Screen.classList.add('show-chapter');
-    cap1Screen.querySelector('.extra-scroll-area').scrollTop = 0; 
-    stopLoreMusic();
-    
-    clearTimeout(loreMusicTimeout);
-    loreMusicTimeout = setTimeout(() => {
-        playPauseMusic('btn-music-cap1', personagens[currentLoadedCharacter].cap1_music, true);
-    }, 1000);
-});
+if (btnOpenLore) {
+    btnOpenLore.addEventListener('click', abrirLore);
+}
 
 const tooltipEl = document.createElement('div');
 tooltipEl.id = 'lore-tooltip';
