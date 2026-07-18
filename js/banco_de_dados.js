@@ -2,7 +2,7 @@ const personagens = {
     'imra': { 
         tema: 'theme-blue',
         nome: 'Imra',
-        classe: 'Aries',
+        classe: 'Áries',
         avatar: 'Imagem Imra/AvatarTe.jpg',
         aniversario: '21/09',
         altura: '1,81m',
@@ -48,7 +48,7 @@ const personagens = {
         modelo3d: 'REapercommteste(3).gltf',
         spotify: 'https://open.spotify.com/embed/playlist/0PYXQb6ggEP8toPZxmnihM?utm_source=generator',
         
-        
+        // INSPIRAÇÕES ATUALIZADAS
         inspiracoes: [
             { src: 'Imagem Imra/Vanitas.jpg', desc: 'Vanitas é uma inspiração pelo fato de esconder tudo o que sente por trás de um sorriso bobo e de brincadeiras. Ele sempre age como se estivesse no controle da situação, mesmo quando está com medo ou enfrentando seus próprios problemas. Prefere carregar esse peso sozinho para que as pessoas ao seu redor possam continuar sorrindo e se sentindo leves.' },
             { src: 'Imagem Imra/Itadori.jpg', desc: 'Yuji Itadori é uma inspiração por compartilhar com Imra um forte desejo de proteger as pessoas. Ele acredita que a força só tem valor quando é usada para salvar alguém e que, se fosse necessário, abriria mão de tudo pelas pessoas que ama.' },
@@ -68,7 +68,7 @@ const personagens = {
     'nyev': { 
         tema: 'theme-pink',
         nome: 'Nyev',
-        classe: 'Cancer',
+        classe: 'Cancêr',
         avatar: 'Imagem Nyev/myshayla.png', 
         aniversario: '21/09',
         altura: '1,73m',
@@ -114,7 +114,7 @@ const personagens = {
         modelo3d: 'link_do_modelo_nyev.gltf',
         spotify: 'https://open.spotify.com/embed/playlist/5zcZX7r8pxwpwAnJ8Ffw6C?utm_source=generator',
         
-        
+        // INSPIRAÇÕES ATUALIZADAS
         inspiracoes: [
             { src: 'Imagem Nyev/Bochhi.jpg', desc: 'TESTE TESTE' },
             { src: 'Imagem Nyev/Boku.jpg', desc: 'TESTE TESTE' },
