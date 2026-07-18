@@ -48,14 +48,14 @@ const personagens = {
         modelo3d: 'REapercommteste(3).gltf',
         spotify: 'https://open.spotify.com/embed/playlist/0PYXQb6ggEP8toPZxmnihM?utm_source=generator',
         
-        // INSPIRAÇÕES ATUALIZADAS
+        
         inspiracoes: [
-            { src: 'Imagem Imra/Vanitas.jpg', desc: 'TESTE TESTE TESTE TESTE TESTE TESTE TESTE TESTE TESTE TESTE TESTE TESTE TESTE TESTE TESTE TESTE TESTE TESTE TESTE TESTE' },
-            { src: 'Imagem Imra/Itadori.jpg', desc: 'TESTE TESTE' },
-            { src: 'Imagem Imra/RinO.jpg', desc: 'TESTE TESTE' },
-            { src: 'Imagem Imra/Shinra.jpg', desc: 'TESTE TESTE' },
-            { src: 'Imagem Imra/Flins.jpg', desc: 'TESTE TESTE' },
-            { src: 'Imagem Imra/Ace.jpg', desc: 'TESTE TESTE' }
+            { src: 'Imagem Imra/Vanitas.jpg', desc: 'Vanitas é uma inspiração pelo fato de esconder tudo o que sente por trás de um sorriso bobo e de brincadeiras. Ele sempre age como se estivesse no controle da situação, mesmo quando está com medo ou enfrentando seus próprios problemas. Prefere carregar esse peso sozinho para que as pessoas ao seu redor possam continuar sorrindo e se sentindo leves.' },
+            { src: 'Imagem Imra/Itadori.jpg', desc: 'Yuji Itadori é uma inspiração por compartilhar com Imra um forte desejo de proteger as pessoas. Ele acredita que a força só tem valor quando é usada para salvar alguém e que, se fosse necessário, abriria mão de tudo pelas pessoas que ama.' },
+            { src: 'Imagem Imra/RinO.jpg', desc: 'Rin Okumura é uma inspiração por compartilhar com Imra um espírito impulsivo e um coração genuinamente bondoso. À primeira vista, ambos podem parecer apenas pessoas agitadas ou inconsequentes, mas suas ações quase sempre são guiadas pelo desejo sincero de ajudar quem precisa. Além disso, os dois carregam um conflito interno entre quem realmente são, quem acreditam que deveriam ser e as expectativas que os outros depositam sobre eles.' },
+            { src: 'Imagem Imra/Shinra.jpg', desc: 'Shinra Kusakabe é uma inspiração por sua esperança inabalável. Imra acredita que, com esforço, dedicação e perseverança, é possível tornar o mundo um lugar melhor. Mesmo diante das dificuldades, ele continua seguindo em frente, guiado por um forte senso de heroísmo.' },
+            { src: 'Imagem Imra/Flins.jpg', desc: 'Flins é uma inspiração pela sua postura calma e madura. Assim como ele, Imra procura transmitir segurança para aqueles ao seu redor, mantendo a compostura mesmo em momentos difíceis. Ambos preferem demonstrar o quanto se importam através de suas ações em vez de palavras, carregando um ar misterioso e reservado que esconde uma história muito maior do que deixam transparecer.' },
+            { src: 'Imagem Imra/Ace.jpg', desc: 'Portgas D. Ace é uma inspiração pela forma como valoriza sua família. Assim como Ace, Imra enxerga sua irmã como o maior presente que já recebeu e faria qualquer coisa para protegê-la. Esse sentimento desperta nele um enorme senso de responsabilidade e uma determinação quase inabalável.' }
         ],
         
         artes: [
@@ -114,7 +114,7 @@ const personagens = {
         modelo3d: 'link_do_modelo_nyev.gltf',
         spotify: 'https://open.spotify.com/embed/playlist/5zcZX7r8pxwpwAnJ8Ffw6C?utm_source=generator',
         
-        // INSPIRAÇÕES ATUALIZADAS
+        
         inspiracoes: [
             { src: 'Imagem Nyev/Bochhi.jpg', desc: 'TESTE TESTE' },
             { src: 'Imagem Nyev/Boku.jpg', desc: 'TESTE TESTE' },
