@@ -17,15 +17,23 @@
     --card-bg: rgba(30, 10, 20, 0.5);
 }
 
-/* ========================================================
-   SISTEMA DE ZOOM GLOBAL PARA PADRONIZAR MONITORES
-   ======================================================== */
+
 @media (max-width: 1400px), (max-height: 850px) {
-    html { zoom: 0.85; }
+    body {
+        transform: scale(0.85);
+        transform-origin: top center; /* Mantém o zoom fixo no topo centralizado */
+        width: 117.6%; /* Compensa o encolhimento para o site continuar ocupando a tela toda */
+        height: 117.6%;
+    }
 }
 
 @media (max-width: 1100px), (max-height: 700px) {
-    html { zoom: 0.70; }
+    body {
+        transform: scale(0.70);
+        transform-origin: top center;
+        width: 142.8%; 
+        height: 142.8%;
+    }
 }
 
 body, html {
