@@ -187,7 +187,7 @@ const imra_cap4_texto = `
         <p>Antes que você saia apressado como sempre, acho que chegamos ao ponto onde posso falar com confiança o que venho guardando há um tempo em minha mente</p>
     </div>
 
-<p>Sua fala parecia mais introspectiva, algo incomum para a mulher alegre que o garoto havia conhecido, mas mesmo assim deu ouvidos ao que parecia ser tão importante aos olhos dela</p>
+<p>Sua fala parecia mais introspectiva, algo incomum para a mulher alegre que o garoto havia conhecido, mas mesmo assim deu ouvidos ao que parecia ser tão importante aos olhos dela;</p>
 
 <div class="notion-quote">
         <span class="notion-speaker"><span style="color: #a30a96;">Zisel</span></span>
