@@ -111,27 +111,17 @@ const personagens = {
         qa: nyev_qa,
 
         // DADOS CAPÍTULO 1
-        cap1_bg_wallpaper: 'https://via.placeholder.com/800x600',
-        cap1_bg_color: 'rgba(255, 20, 147, 0.7)',
-        cap1_cover: 'https://via.placeholder.com/1200x400',
-        cap1_icon: '🌸', 
-        cap1_titulo: 'Capítulo 1: Rosinha',
+        cap1_bg_wallpaper: '',
+        cap1_bg_color: '#360620b3',
+        cap1_cover: 'Imagens LoreBGNY/GalaxiaRosa.jpg',
+        cap1_icon: 'Imagens LoreBGNY/EstrelaRosa.jpg', 
+        cap1_titulo: 'Capítulo I - As Estrelas que Caíram',
         cap1_color: '#FF1493',
         cap1_glow: 'rgba(255, 20, 147, 0.7)',
         cap1_music: '', 
         cap1_texto: nyev_cap1_texto,
 
-        // DADOS CAPÍTULO 2
-        cap2_bg_wallpaper: 'https://via.placeholder.com/800x600',
-        cap2_bg_color: 'rgba(60, 10, 30, 0.85)',
-        cap2_cover: 'https://via.placeholder.com/1200x400',
-        cap2_icon: '✧( ु•⌄• )', 
-        cap2_titulo: 'Capítulo 2: Segredos',
-        cap2_color: '#FF69B4',
-        cap2_glow: 'rgba(255, 105, 180, 0.7)',
-        cap2_music: '', 
-        cap2_texto: nyev_cap2_texto,
-        
+       
         pers_titulo: '✩₊˚.⋆☾⋆⁺₊✧',
         pers_subtitulo: 'Personalidade',
         pers_texto: nyev_pers_texto,
