@@ -23,23 +23,48 @@ const personagens = {
         cap1_bg_wallpaper: 'Imagem Imra/Fundo Cap1.jpg',
         cap1_bg_color: 'rgba(9, 22, 75, 0.2)',
         cap1_cover: 'Imagem Imra/Starfall.jpg',
-        cap1_icon: '🌌', 
-        cap1_titulo: 'O INICIO',
+        cap1_icon: 'Imagens LoreBGIM/EstrelaIcon.jpg', 
+        cap1_titulo: 'Capítulo I - As Estrelas que Caíram',
         cap1_color: '#1E90FF', 
         cap1_glow: 'rgba(30, 144, 255, 0.7)',
         cap1_music: '',
         cap1_texto: imra_cap1_texto,
 
         // DADOS CAPÍTULO 2
-        cap2_bg_wallpaper: 'Imagem Imra/Arvores2.jpg', 
-        cap2_bg_color: 'rgba(0, 5, 19, 0.8)', 
+        cap2_bg_wallpaper: 'Imagens LoreBGIM/Floresta.jpg', 
+        cap2_bg_color: '#09341b93', 
         cap2_cover: 'Imagem Imra/Floresta.jpg',
-        cap2_icon: '🌲', 
-        cap2_titulo: 'A FLORESTA',
-        cap2_color: '#1dc46bcc', 
-        cap2_glow: 'rgba(1, 6, 17, 0.8)',
+        cap2_icon: 'Imagens LoreBGIM/FlorestaIcon.jpg', 
+        cap2_titulo: 'Capítulo II - O Despertar da Floresta',
+        cap2_color: '#556B2F', 
+        cap2_glow: 'rgba(16, 142, 7, 0.8)',
         cap2_music: '', 
         cap2_texto: imra_cap2_texto,
+
+        // DADOS CAPÍTULO 3
+        cap3_bg_wallpaper: 'Imagens LoreBGIM/Casa.jpg', 
+        cap3_bg_color: '#3f310759', 
+        cap3_cover: 'Imagens LoreBGIM/Casa.jpg',
+        cap3_icon: 'Imagens LoreBGIM/FogueiraIcon.jpg', 
+        cap3_titulo: 'Capítulo III - O Refúgio da Madeira',
+        cap3_color: '#4b3a09', 
+        cap3_glow: '#664f0b',
+        cap3_music: '', 
+        cap3_texto: imra_cap3_texto,
+
+// DADOS CAPÍTULO 4
+        cap4_bg_wallpaper: 'Imagens LoreBGIM/FogoCap4.jpg', 
+        cap4_bg_color: '#072a2d30', 
+        cap4_cover: 'Imagens LoreBGIM/FogoCap4.jpg',
+        cap4_icon: 'Imagens LoreBGIM/FogoAzulIcon.jpg',
+        cap4_titulo: 'Capítulo IV - A Chama do Nome',
+        cap4_color: '#00E5FF', 
+        cap4_glow: '#00E5FF',
+        cap4_music: '', 
+        cap4_texto: imra_cap4_texto,
+
+
+
 
         pers_titulo: '✩₊˚.⋆☾⋆⁺₊✧',
         pers_subtitulo: 'Personalidade',
