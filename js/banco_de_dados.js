@@ -154,6 +154,18 @@ const personagens = {
         cap4_music: '',
         cap4_texto: nyev_cap4_texto,
 
+        // DADOS CAPÍTULO 5
+        cap5_bg_wallpaper: 'Imagens LoreBGNY/Lama.jpg', 
+        cap5_bg_color: 'rgba(44, 31, 26, 0.25)', 
+        cap5_cover: 'Imagens LoreBGNY/Lama.jpg',
+        cap5_icon: '', 
+        cap5_titulo: 'Capítulo V - O Altar da Fumaça e a Queda do Guardião',
+        cap5_color: '#8A0303', 
+        cap5_glow: '#8A0303',
+        cap5_music: '',
+        cap5_texto: nyev_cap5_texto,
+
+
 
         pers_titulo: '✩₊˚.⋆☾⋆⁺₊✧',
         pers_subtitulo: 'Personalidade',
