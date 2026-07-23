@@ -196,7 +196,14 @@ const personagens = {
         ],
         
         artes: [
-            { src: 'https://via.placeholder.com/300', artist: 'nyev_drawer' }
+            { src: 'Imagem Nyev/2.png', artist: 'mariroblox' },
+            { src: 'Imagem Nyev/aaaaaaa.png', artist: 'mariroblox' },
+            { src: 'Imagem Nyev/CorpoInteiroBlast.png', artist: 'Candy' },
+            { src: 'Imagem Nyev/myshayla.png', artist: 'Eli' },
+            { src: 'Imagem Nyev/neon_trio_cosplay.png', artist: 'mariroblox' },
+            { src: 'Imagem Nyev/3.png', artist: 'Eli' },
+            { src: 'Imagem Imra/Ambos Eli.png', artist: 'Eli' },
+
         ],
 
         curiosidades: nyev_curiosidades
