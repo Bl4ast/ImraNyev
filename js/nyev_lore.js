@@ -272,7 +272,12 @@ const nyev_cap7_texto = `
 
     <p>   O garoto tentou fazer o que pôde para ajudar mas era difícil quando não se sabia nem fazer uma tala. Então, ele fez o que achou que os faria chegar na casa de Zisel o mais rápido, ela deveria ser o tipo de pessoa que sabe tratar os doentes. Ele colocou Nyev em seu colo e começou a caminhar, seguindo apenas a vaga visão de caminho que a garota havia o contado.</p>
 
-    
+    <p>   E, enquanto o garoto lutava contra sua própria resistência física, Nyev lutava contra o destino. Ela se sentia tola por estar deixando algo que nem ela entendia tomar conta de seu corpo, mas também, não era como se ela estivesse surpresa, era só isso que sabia fazer, deixar com que os outros decidam sua vida por si, ela não sabia sequer ser a protagonista da própria história. Ela realmente queria ter tentado ser alguém, até sonhou que, talvez, após se curar na casa de Zisel, ela poderia se tornar independente, como seu irmão. Surpreendentemente, a sensação que seu corpo começava a sentir não era mais de agonia, ela se sentia caindo em um sono profundo novamente. Era como quando você fica acordado até tarde e tenta resistir o máximo para não pegar no sono, pelo menos para ver o sol nascer, e, nesse caso, já era possível ver os primeiros raios subindo, a casa de Zisel estava logo a frente, ela finalmente a viu pela primeira vez, a presença etérea dela não era o que Nyev esperava, ela realmente parecia um cometa alado. E, para sua maior surpresa, Imra já havia chegado antes na casa, era tão bom vê-lo depois de tanto tempo, seus sentidos estavam turvos, então era difícil entender o que ele falava, ou sequer fazer uma imagem nítida dos dois, mas era bom poder ter todos reunidos, com o sol nascendo e tomando cada vez mais sua visão até que a luz tomasse conta de si, ela promete em voz alta para si e o mundo, antes que pagasse no sono;</p>
+
+    <div class="notion-quote">
+        <span class="notion-speaker"><span style="color: #940aaf;">Nyev</span></span>
+        <p>Nesse novo capítulo… Eu… Eu quero tentar… </p>
+    </div>
 
 
 
