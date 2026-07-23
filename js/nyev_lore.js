@@ -99,4 +99,84 @@ const nyev_cap4_texto = `
 
 </p>
 </div>
+
+    
+`;
+
+const nyev_cap5_texto = `
+<div class="lore-subchapter">
+    <p>A noite do tal festival desceu sobre o vale como uma mortalha espessa. O som rítmico e cadenciado de tambores reverberava pelas finas paredes de madeira do alojamento, fazendo o chão de terra batido vibrar sob os pés de Nyev. Imra andava de um lado para o outro no quarto, ajeitando com vigor as vestes cerimoniais escuras que os moradores lhe haviam entregue. Seus olhos negros brilhavam como uma ansiedade febril, a promessa de grandeza turvando seu discernimento.</p>
+
+    <div class="notion-quote">
+        <span class="notion-speaker"><span style="color: #940aaf;">Nyev</span></span>
+        <p>Você não precisa ir até lá, Imra. Podemos ficar aqui, ignorar os tambores. O barulho lá fora…. não soa como uma festa. O meu estômago não para de se revirar.</p>
+    </div>
+
+    <p>O garoto parou sua marcha, soltando um suspiro pesado, mas o sorriso presunçoso e confiante não abandonou seus lábios. Ele se ajoelhou diante dela, segurando seus ombros com a firmeza típica de quem não aceitou recuos.</p>
+
+    <div class="notion-quote">
+        <span class="notion-speaker"><span style="color: #300aa3;">Imra</span></span>
+        <p>Nyev, me ouça, hoje eles vão me reconhecer oficialmente diante de todos. eles me garantiram que este é o ritual de passagem. Eu serei parte dessa vila, o ombro amigo que vai consertar as coisas. Ninguém vai encostar um dedo em você, eu já impus isso a todos.</p>
+
+    </div>
+
+    <div class="notion-quote">
+        <span class="notion-speaker"><span style="color: #940aaf;">Nyev</span></span>
+        <p>Mas e aquele rapaz? O da cicatriz. Ele sorriu para mim hoje mais cedo quando você estava treinando. Foi um sorriso horrível, Imra. Um sorriso oco, sem boas intenções, eu podia sentir.</p>
+    </div>
+
+    <div class="notion-quote">
+        <span class="notion-speaker"><span style="color: #300aa3;">Imra</span></span>
+        <p>Nyev, para acalmar seu coração, fique aqui e tranque a porta. Não abra a menos que ouça meu chamado. Prometo que serei o mais rápido possível e logo voltaremos a ficar tranquilos, assim como estivemos todos os dias desde que chegamos, não precisa ficar assim justo hoje.</p>
+
+    </div>
+
+<p>A porta se fechou, e a solidão tomou conta do recinto de forma avassaladora. O tempo se arrastou agoniante enquanto os tambores lá fora atingiam um clímax alucinante. De repente, o som cessou por completo. O silêncio que se seguiu não trouxe alívio. Era o prelúdio da morte.</p>
+<p>Não houve batidas ou pedidos educados. A madeira maciça da porta simplesmente cedeu com um estrondo violento, estilhaçando-se sob golpes de machados e marretas. Figuras encapuzadas, portanto correntes e lâminas, invadiram o aposento. Nyev recuou até bater as costas na parede, tentando gritar o nome de Imra, mas o ar travou completamente em seus pulmões. Mãos grossas, cheirando a enxofre e fuligem, agarram seus pulsos com brutalidade.</p>
+
+<div class="notion-quote">
+        <span class="notion-speaker"><span style="color: #a3380a;">Homem Armado</span></span>
+        <p>O sangue lavará nosso altar hoje!!</p>
+
+    </div>
+
+
+
+    <p>Ela foi puxada em direção a um corredor sombrio. Sua mente ria de sua ingenuidade, ditando que ela morreria como sempre viveu: sendo uma espectadora paralisada pelo próprio terror. Ela mal reagiu à invasão ou ao sequestro, só sabia chorar e rezar, como pode alguém não criar coragem nem quando sua vida está em risco. Tudo apontava para a verdade de Nyev, ela estava certa sobre a inquietude deste lugar, e agora apodreceria nele.</p>
+    <p>Contudo, quase como se o destino estivesse a dando mais uma chance, mostrando misericórdia em sua situação, antes que pudessem arrastá-la as fogueiras do pátio, as fundações do edifício estremeceram. Uma explosão colossal obliterou a parede lateral do corredor, lançando farpas de madeira ardente e densas nuvens de poeira sufocante sobre todos no corredor. Dos corações das labaredas e do caos repentino, emergiu a figura de Imra. Ele empunhava uma espada longa e pesada, claramente subtraída do arsenal principal da vila. A postura dele em combate era trágica e escandalosamente inábil. Os braços balançavam o aço de forma desajeitada, mas a fúria abrasadora e o remorso que distorciam suas feições compensavam qualquer falta de técnica, era quase como se sua alma estivesse queimando.</p>
+
+    <div class="notion-quote">
+        <span class="notion-speaker"><span style="color: #300aa3;">Imra</span></span>
+        <p>SOLTEM ELA, TIREM SUAS MÃOS SUJAS DELA!!!</p>
+        
+    </div>
+
+    <p>Ele berrou, com a voz falhando em meio ao esforço. Ele avançou de forma quase suicida, desferindo golpes que abriam espaço na base da brutalidade, trocando a própria carne para forçá-los a recuar.</p>
+    
+<div class="notion-quote">
+        <span class="notion-speaker"><span style="color: #940aaf;">Nyev</span></span>
+        <p>Imra, por favor fuja! Eu me viro para sair daqui, só saia</p>
+        
+    </div>
+
+    <p>A garota respondeu, ainda recuperando seus sentidos após a explosão, mas dando seu máximo para ficar de pé logo, ela tinha que mostrar que poderia ser deixada para trás sozinha, para que Imra fugisse rápido. Porém, os cultistas finalmente o subjugaram, pressionando o seu corpo contra o solo empapado de sangue e terra. Com o rosto sujo, respirando de forma entrecortada, Imra ergueu os olhos escuros para encontrar os de Nyev, Não havia mais vestígios daquele orgulho imaturo ou da arrogância inflamada, havia apenas uma urgência devastadora e o instinto primitivo de protegê-la.</p>
+
+    <div class="notion-quote">
+        <span class="notion-speaker"><span style="color: #300aa3;">Imra</span></span>
+        <p>NYEV, CORRA, EU TE ALCANÇO!!!!</p>
+        
+    </div>
+
+    <p>O impacto daquelas últimas palavras a atingiu como um golpe físico, quebrando a corrente do pânico paralisante, ela tentou protestar, tentou gritar algo, mas o garoto a interrompeu.</p>
+
+    <div class="notion-quote">
+        <span class="notion-speaker"><span style="color: #300aa3;">Imra</span></span>
+        <p>Eu prometo, corra logo, quando você perceber, estarei atrás de você!!</p>
+        
+    </div>
+
+    <p>Chorando histericamente, como a alma despedaçada, Nyev virou as costas para o único ser que lhe havia oferecido um lar e mergulhou de cabeça na escuridão intransponível da floresta. Ela decidiu confiar nele mais uma vez ao correr, mesmo sabendo que se arrependeria de deixar seu medo tomar a ajuda que ela poderia ter prestado.</p>
+
+
+    </div>
 `;
