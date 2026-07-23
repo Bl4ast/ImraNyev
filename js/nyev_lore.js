@@ -192,6 +192,89 @@ const nyev_cap6_texto = `
     <p>O turbilhão asfixiante de seus pensamentos acabou sendo interrompido pela crueldade do ecossistema. Ruídos bestiais começaram a preencher o silêncio da ravina. Predadores noturnos, aguçados pelo cheiro metálico de sangue e angústia que emanava de suas feridas, começaram a espreitar furtivamente por entre as moitas cerradas simultaneamente, pessoas começaram a espreitar furtivamente por entre as moitas cerradas. Simultaneamente, passos pesados de botas esmagando a folhagem seca no topo da colina anunciavam que a caçada humana não havia terminado, os algozes ainda a procuravam implacavelmente no escuro.</p>
     <p>Sendo obrigada a se esforçar para ignorar a dor, tanto física quanto mental, Nyev se arrastou dolorosamente até a base de um pinheiro. O pavor exigia que ela subisse, que escapasse daquele matadouro a qualquer custo. Suas mãos suadas e rasgadas tateavam a casca áspera da árvore, na inútil esperança de encontrar um apoio firme, mas seus músculos, completamente drenados de energia e tomados pelo terror, recusaram-se a obedecer, cada nova tentativa falha a atirava de volta a lama fria, aproximando a, segundo a segundo, das presas mortais e das lâminas afiadas de seus perseguidores.</p>
     <p>Talvez o universo tivesse decidido que uma morte era o suficiente para aquela noite, talvez ele quisesse prolongar a tortura da garota, é uma dúvida que se perpetua mesmo após sua morte, que era inevitável e iria acontecer, mas não agora.</p>
+
+</div>
+`;
+
+
+const nyev_cap7_texto = `
+<div class="lore-subchapter">
+    <p>Quando o choro de resignação tomou conta da garota e seus braços amoleceram, aceitando a derrota iminente, algo surreal quebrou o curso de sua tragédia. Uma mão ríspida, calosa e absurdamente forte irrompeu do escuro, fechando-se ao redor do seu pulso com a firmeza de um alicate de ferro. Antes que pudesse articular qualquer som, ela foi içada violentamente do chão, puxada sobre a gravidade para se ocultar nas folhagens densas dos galhos. Imediatamente, uma palma suada cobriu sua boca.</p>
+</p>
+
+<div class="notion-quote">
+        <span class="notion-speaker"><span style="color: #a3380a;">?????</span></span>
+        <p>Fique completamente em silêncio se ainda quiser respirar</p>
+
+    </div>
+
+    <p>Uma voz masculina sussurrou de forma ríspida e ofegante. Arfando contra a mão do estranho, com os olhos arregalados e ajustando-se à penumbra do galho, Nyev virou o pescoço milimetricamente. Ao reconhecer o perfil ao seu lado, seu corpo inteiro paralisou em choque. Ali, equilibrado na árvore e partilhando o mesmo esconderijo precário, estava o rapaz de rosto marcado por cicatrizes que ela vira circulando pela vila, um estranho cuja feição cortada antecipava a corrupção de Cinzavela. O pavor fez o coração da garota bater tão violentamente que ela temeu que o som os entregasse. O carrasco, o fanático que a enxergava como ovelha de abate, estava colado a ela. Ela tentou se afastar agressivamente, mas o rapaz travou seu corpo com o braço livre, apontando silenciosamente o dedo para a base do barranco.</p>
+    <p>   Lá embaixo, um pequeno pelotão de cultistas raivosos cruzou a área a passos largos. Eles brandiam tochas crepitantes e xingavam abertamente a escuridão da floresta, chutando pedras e vasculhando os arbustos, até que finalmente se frustraram com a falta de vestígios e seguiram por uma trilha bifurcada, afastando-se dali. Assim que o brilho laranja das fumaças sumiu no horizonte e os passos silenciaram, o garoto removeu a mão do rosto dela. A garota de cabelos rosa rastejou velozmente para a extremidade oposta do tronco grosso, fuzilando o rapaz com um misto de repulsa e pânico latente.</p>
+
+    <div class="notion-quote">
+        <span class="notion-speaker"><span style="color: #940aaf;">Nyev</span></span>
+        <p>O que você quer de mim? Veio terminar o trabalho sujo que os monstros da sua vila começaram? Cadê ele? O que vocês fizeram com o Imra?!</p>
+    </div>
+
+    <p>O rapaz de cicatrizes desviou o contato visual, um expressão de profunda perturbação e conflito substituindo a velha arrogância que costumava vestir.</p>
+
+    <div class="notion-quote">
+        <span class="notion-speaker"><span style="color: #a3380a;">Rapaz de Cicatrizes</span></span>
+        <p>Ele está morto</p>
+
+    </div>
+
+    <p>a frase soou seca, arrastada, desprovida de qualquer orgulho doentio.</p>
+
+    <div class="notion-quote">
+        <span class="notion-speaker"><span style="color: #a3380a;">Rapaz de Cicatrizes</span></span>
+        <p>Ele lutou bravamente, mas as lâminas o engoliram. E fui eu quem dei o golpe final.</p>
+
+    </div>
+
+    <p> A declaração fria e testemunhal estilhaçou o que restava do mundo de Nyev. Ela sufocou um grito, encolhendo as pernas e afundando o rosto entre as mãos pálidas, deixando que um choro engasgado e convulsivo sacudisse seus ombros. O rapaz observou o luto absoluto da forasteira, a garganta engolindo seco diante do sofrimento palpável, antes que a garota pudesse pensar em falar algo, com a voz pesada de culpa, o garoto fez seu monólogo;</p>
+
+    <div class="notion-quote">
+        <span class="notion-speaker"><span style="color: #a3380a;">Rapaz de Cicatrizes</span></span>
+        <p>Mas antes que ele caísse de vez… ele me tocou. Aquele garoto olhou para mim nos meus últimos instantes com ele e não lançou ódio. Ele falou para mim de minha mãe, Zisel, sobre como eu era parecido com ela, eu nem pensava que ela ainda estivesse viva. Ele passou a mensagem dela para mim, disse que a amargura daquela vila não precisava ser o meu fim e me convenceu a voltar para casa, a pedir perdão ao mundo antes que fosse tarde. Ele mudou a minha mente enquanto sangrava nos meus braços. Eu confesso que não tive a audácia de me virar contra a vila inteira no pátio para salvá-la…. Mas corri pelas bordas para te tirar dessa mata. Acho que é minha única forma de pedir perdão a ele, e de achar minha mãe novamente</p>
+
+    </div>
+
+    <p>Nyev baixou as mãos manchadas de lama é lágrimas, absorvendo o peso colossal daquela confissão. Os olhos, antes arregalados pelo pânico, agora carregavam uma tempestade de emoções indescritíveis. A raiva fervia em suas veias, instigando uma vontade inédita de empurrá-lo daquela árvore e vingar o sangue de seu irmão. Contudo, a lógica e a memória de Imra pesavam mais. Aquele garoto impulsivo e arrogante, que despencou das estrelas com ela, havia usado seu último suspiro não para amaldiçoar o próprio algoz, mas para salvá-lo da escuridão.</p>
+
+    <div class="notion-quote">
+        <span class="notion-speaker"><span style="color: #940aaf;">Nyev</span></span>
+        <p>Você tirou a vida dele…. Mas ele, mesmo morrendo, enxergou o que você poderia ser. Ele sempre agiu como se precisasse ser o escudo de todos. E, no fim… ele foi o seu também.</p>
+    </div>
+
+    <p> O rapaz de cicatrizes assentiu devagar, a mandíbula travada e o rosto contorcendo-se para contar as lágrimas que a cruel doutrina de Cinzavela o ensinou a reprimir durante toda sua vida. A inércia do luto ainda tentava puxar Nyev para o fundo de sua própria mente, mas ela sabia que ficar ali, inerte e consumida pelo ódio, seria um desrespeito irreparável ao sacrifício de Imra. Engolindo o amargor de sua tristeza e silenciando a voz pessimista que a mandava desistir, a garota de cabelos rosa gesticulou para que descessem. Talvez pela adrenalina de toda a situação, Nyev nem percebeu o quão grave seus machucados eram, ao descer na árvore e encostar no chão, sentiu uma dor agonizante nas pernas, provavelmente havia torcido ou quebrado algum osso, sem contar as outras partes do seu corpo que doíam, faziam difícil estar em pé. O garoto de início até indagou se ela realmente conseguiria achar o caminho de volta para a casa de sua mãe naquele estado, mas ela apenas disfarçou a dor e falou para continuarem, afinal, esse era o último desejo de Imra, ela queria tentar ajudá-lo a cumprir, e talvez conhecer a mulher que a refugiou mesmo sem conhecê-la.</p>
+
+    <p>  A caminhada pela floresta espessa recomeçou. As horas se arrastavam sob o manto de uma madrugada gélida, e o silêncio entre eles, inicialmente hostil e pontiagudo, começou a ceder. O cansaço físico extremo e a vulnerabilidade da fuga abriram as portas para a verdade. O rapaz falou sobre sua criação, sobre como o fanatismo da vila havia moldado suas mãos apenas para ferir, transformando o em uma ferramenta oca, cada vez mais distante do amor que Zisel tentou lhe oferecer na infância.</p>
+
+    <p> Nyev, escutava com a cabeça levemente inclinada. Ela percebeu, nas entrelinhas da dor do rapaz, uma alma estilhaçada que ansiava desesperadamente por conserto e redenção. O ódio que sentia foi, passo a passo, sendo diluído por uma empatia e compaixão. Em troca, ela encontrou coragem para falar. Contou a ele do medo que sempre a paralisava e sobre como Imra foi sua primeira e maior âncora de bravura no mundo.</p>
+
+    <div class="notion-quote">
+        <span class="notion-speaker"><span style="color: #940aaf;">Nyev</span></span>
+        <p>Eu sempre repeti para mim mesma que amizades de qualidade valem mais que qualquer quantidade.</p>
+    </div>
+
+    <p>Ela murmurou, ajudando-o a afastar um galho espinhoso do caminho.</p>
+
+
+    <div class="notion-quote">
+        <span class="notion-speaker"><span style="color: #940aaf;">Nyev</span></span>
+        <p>Imra foi a melhor que eu poderia ter  tido. E ele acreditou que havia salvação em você. Se eu o honro… Eu preciso acreditar nisso também.</p>
+    </div>
+
+    <p>  Aquelas palavras selaram o perdão. No coração daquela floresta amaldiçoada, o improvável aconteceu de forma silenciosa, a garota e o carrasco forjaram um vínculo genuíno. Tornaram-se amigos, sustentados pelo peso de um luto compartilhado e pela promessa mútua de encontrarem a luz ao lado de Zisel.</p>
+
+    <p> Contudo, a tragédia parecia ser o destino inevitável daquela noite. Ao se recolherem para descansar pelo dia, já na madrugada, Nyev começou a realmente sentir os efeitos de sua negligência consigo mesma. Diferente de seu irmão, ela não teve quem a ensinasse algo além do básico sobre esta vida, ela não entendia que a dor que sentia naquele momento era uma hemorragia interna. A queda havia sido mais feia do que ela sabia, seu corpo já estava correndo contra o tempo, em um estado febril constante e com uma dor excruciante. Mas era difícil pedir para que ela entendesse a gravidade da situação, dores não são problemas de estrelas, elas apenas estão lá para iluminar o céu, ela também deveria deixar esta dor de lado e iluminar o caminho para a casa de Zisel, mas era difícil se lembrar, durante metade do caminho ela dormia, ela nem sequer sabia como Zisel era. Por hora, ela apenas sentia que deveria continuar tentando, a dor poderia ser tratada ao chegar lá. Assim, a jornada continuou, porém cada dia com um ritmo mais lento e voltas desnecessárias, ela o guiava por onde achava ser certo, mas quase sempre tinham que dar meia volta e seguir por outra direção. Mas, apesar de tudo, ambos não deixavam de rir. Eles descobriram que tinham muito mais em comum do que sabiam, às vezes o momento era tão bom que era possível ignorar a dor por alguns segundos. Mesmo não sabendo a origem desse desconforto constante, ela era capaz de entender que sua situação atual era miserável, e que talvez não estivesse nas melhores condições para essa viagem, mas, como esperaro, ela ignorou seu corpo e seguiu a diante. Porém, naquela mesma noite sua febre piorou, seu corpo parecia que ia pegar fogo, tudo doía, os ossos quebrados e torcidos, os cortes e o sangramento interno.</p>
+
+    <p>   O garoto tentou fazer o que pôde para ajudar mas era difícil quando não se sabia nem fazer uma tala. Então, ele fez o que achou que os faria chegar na casa de Zisel o mais rápido, ela deveria ser o tipo de pessoa que sabe tratar os doentes. Ele colocou Nyev em seu colo e começou a caminhar, seguindo apenas a vaga visão de caminho que a garota havia o contado.</p>
+
     
+
+
+
 </div>
 `;
