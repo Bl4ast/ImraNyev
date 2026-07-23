@@ -3,10 +3,79 @@ const nyev_cap1_texto = `
     <p>Os cosmos, imperfeitos e perfeitos, tudo ao mesmo tempo, se uniam para criar galáxias, planetas, constelações e os astros mais brilhantes possíveis. No meio desse mar de sistemas, dois em específico pareciam estar quase que predestinados a se encontrarem. Na visão humana, afirmar que ambos sempre estiveram mais próximos do que imaginavam, seria incompreensível, eles estavam a milhões de anos-luz um do outro, mas se estrelas tivessem consciência, elas os descreveriam como moradores de uma mesma rua, só esperando para se esbarrarem.</p>
     <p> Assim, as duas estrelas, cansadas de brilhar sozinhas no silêncio do firmamento, como duas moradoras solitárias do vasto universo, começaram a escorregar pelo véu da noite numa curva suave de luz. Suas trajetórias não tinham intenção de se cruzar, mas o destino via aquela oportunidade de outra maneira. Enquanto caía, a estrela segunda foi surpreendida pela presença repentina da estrela segunda, que parecia ter se desviado somente para vê-lá, sem nem terem consciência do fato, dois opostos se completavam. A noite era estrelada e calma, sem nuvens no céu, sem pessoas em volta, apenas dois seres caídos do espaço em uma vasta floresta de pinheiros, eles dormiam suavemente, com os olhos fechados, como se o próprio céu ainda sonhasse dentro deles.</p>
     <p>  Após a fumaça da queda se perder no vento, um par de olhos permanecia fechado como se nada tivesse ocorrido, uma garota de pele cinza clara e de cabelo curto mas rosa vibrante, seus ombros se iluminavam com pequenas estrelas e formavam uma galáxia em volta da região de sua clavícula, onde uma outra estrela, mas desta vez grande e preta como um buraco-negro, tomava conta da região. Mesmo adormecida, seu subconsciente entendia que aquele sono não era solitário. O motivo disso ainda era uma resposta de um futuro distante, já que, nem ela mesma sonhava em se entender ou se quer existir em um plano terreal, ela apenas dormia, sem hora para acordar.</p>
-    <p> Aquele sono fundo era quase hipnotizante, fazia você também querer se deitar e alcançar as estrelas mais fofas para dormir, um estado de paz que parecia interrompível, não importa o que você fizesse. Seu sono parecia não ter fim, estações passavam, flores morriam e renasciam, laços se criavam, até mesmo chegavam perto de se rasgar por completo, mas a menina permanecia sonolenta. Ao momento em que seu sono se estendia, qualquer forma de pensamento era imprescindível, não só por ela, mas pela presença que a guardava em meio a este sono. </p>
+    <p>   Aquele sono fundo era quase hipnotizante, fazia você também querer se deitar e alcançar as estrelas mais fofas para dormir, um estado de paz que parecia interrompível, não importa o que você fizesse. Seu sono parecia não ter fim, estações passavam, flores morriam e renasciam, laços se criavam, até mesmo chegavam perto de se rasgar por completo, mas a menina permanecia sonolenta. Ao momento em que seu sono se estendia, qualquer forma de pensamento era imprescindível, não só por ela, mas pela presença que a guardava em meio a este sono. 
+</p>
 </div>
 `;
 
 const nyev_cap2_texto = `
-<p></p>
+<div class="lore-subchapter">
+    <p> Talvez as palavras usadas para descrever um sono sem fim anteriormente tenham sido precipitadas. Após algumas estações dormindo um sono, ela começou a ter pequenos relances da realidade, quando o sol atravessava e deixava sua pele aquecida, quando alguém passava a mão em seu cabelo e principalmente quando brigas começaram a acontecer à sua volta. Seu corpo parecia estar alinhado com o pior momento possível para despertar, ela não poderia ter o luxo de acordar em um campo vasto e silencioso. Enquanto sua consciência começava a tomar forma ela se sentia sendo puxada, levantada e carregada às pressas, sua visão lentamente se abria, ela estava sendo levada por alguém de pele cinza escura e cabelos negros, mas, quase como se entendesse o desespero dele de ter que cuidar de mais uma pessoa em uma situação claramente dificil, ela se obrigou a voltar a dormir, dessa vez sem ser um sono eterno, apenas um esperando a luz apara acordar.</p>
+    <p> Como se o mundo estivesse finalmente pronto para recebê-lá, vagalumes se concentravam perto de si, fazendo com que a iluminação do lugar a acordasse. A luz pulsante daqueles minúsculos insetos alados assemelhava a uma constelação particular, um fragmento do firmamento que havia descido a terra apenas para sauda-la. Para sua mente recém-desperta, os vagalumes pareciam estrelas cadentes bailando a poucos palmos de seu rosto. Contudo, a beleza etérea daquele balé luminoso foi subitamente engolida pela realidade crua que se delineava ao seu redor. Ao abrir os olhos por completo e constatar a vastidão úmida e sombria da floresta desconhecida, um horror instintivo e paralisante tomou conta de seu ser. O pânico foi violento, ela recuou com força contra o solo de terra batida, soltando um grito agudo, um grunhido de puro desespero diante do abismo que era estar viva, consciente e completamente vulnerável naquele mundo hostil. A resposta a sua aflição veio quase de imediato. a figura de um garoto projetou-se em sua direção. Com uma urgência desajeitada, típica de quem está mais acostumado a se armar contra perigos do que consolar almas assustadas, ele gesticulou freneticamente, tentando acalmar a situação.</p>
+
+    <div class="notion-quote">
+        <span class="notion-speaker"><span style="color: #300aa3;">????</span></span>
+        <p>Não, não, está tudo bem! Não precisa gritar, por favor, se acalme, não grite.</p>
+    </div>
+    <p>Ele suplicava em sussurros afobados, olhando de relance para sombras da mata como se o pŕoprio som pudesse atrair alguma presença indesejada. Ele explicou, atropelando as próprias sílabas e deixando transparecer um conflito interno, ele havia velado por seu corpo inerte, servindo como um escudo enquanto o mundo ao redor respirava ameaças.</p>
+    <p> Encolhida, abraçando os próprios joelhos com uma força que tornava os nós de seus dedos brancos, a garota o escutava em um silêncio descomunal, Sua mente, completamente inclinada a desenhar cenários catastróficos e cruéis, buscava qualquer brecha para duvidar daquela súbita proteção. No entanto, a exaustão sincera na cadência da voz do garoto começava a desarmar suas defesas. Ele parou de falar por um instante, suspirando pesadamente enquanto a estudava. A luz pálida dos vagalumes refletia na pele cinza clara da garota, um tom tão frio, sereno e intocável que contrastava imensamente com a escuridão da floresta ao redor e com a própria pele cinza escura dele.</p>
+
+    <div class="notion-quote">
+        <span class="notion-speaker"><span style="color: #300aa3;">????</span></span>
+        <p>Eu não sei como te chamar</p>
+    </div>
+
+    <p>Ele falou, quebrando o breve silêncio com uma franqueza impulsiva. Ele não era do tipo que recuava diante do desconforto.</p>
+
+    <div class="notion-quote">
+        <span class="notion-speaker"><span style="color: #300aa3;">Imra</span></span>
+        <p>Zisel me deu um nome, me chamou de Imra. Mas você…. eu não posso fingir que não existe enquanto fica ao meu lado. Você é quieta e pálida.</p>
+    </div>
+
+    <p>Ele inclinou a cabeça levemente, os olhos negros fixos nas pequenas galáxias desenhadas na clavícula e nos ombros dela. O silêncio pesou por uma fração de segundo antes que ele tomasse a decisão.</p>
+
+    <div class="notion-quote">
+        <span class="notion-speaker"><span style="color: #300aa3;">Imra</span></span>
+        <p>Nyev. É assim que vou te chamar, pode não ser repleto de significado, mas acho que ele transmite você, o que acha?</p>
+    </div>
+
+    <p>Ela piscou, surpresa pela escolha repentina. O som daquele nome soou estranho em seus próprios ouvidos, mas, aos poucos, foi se assentado em sua mente como uma vestimenta perfeitamente costurada. Mesmo trêmula, uma parte profunda de seu íntimo sentiu-se inegavelmente acolhida, fazendo com que ela assentisse timidamente com a cabeça, mostrando sua aprovação sútil pelo nome.</p>
+    <p>  A conexão cósmica, aquele fio invisível que os unira na queda pelo espaço, cintilou em seu peito, aquecendo o frio da noite. Ali, sobre a iluminação fraca dos insetos estelares, ao receber uma identidade daquela estranha presença, a garota das estrelas soube que já não estava mais orbitando sozinha no escuro.</p>
+    
+
+</div>
+`;
+
+const nyev_cap3_texto = `
+<div class="lore-subchapter">
+    <p>A paz daquela clareira, no entanto, era apenas um interlúdio ilusório. Imra, mesmo antes do despertar da garota, já carregava consigo uma inquietação, um desejo irreprimível de entender a própria natureza e a origem da chama ardente que queimava em seu interior. Na noite anterior, ele havia saído da casa de alguém que o acolheu, às pressas, tendo em vista que ele corria pela flora apenas com Nyev em seu colo, em busca de uma promessa deste tal entendimento de sua natureza. Ele à explicava a situação em que estavam após seu despertar;</p>
+    
+    <div class="notion-quote">
+        <span class="notion-speaker"><span style="color: #300aa3;">Imra</span></span>
+        <p>Zisel é uma mulher sábia, ela nos acolheu quando eu nem sequer entendia que as estrelas não eram mais minha casa. No meu tempo lá, ela mencionou uma vila, ela a chamava de Cinzavela. Disse que lá cultuam o Guardião do Velocino de Ouro. Ela disse que lá é perigoso, mas eu acho que talvez ele saiba por que fomos jogados aqui, ela sempre falava sobre a verdade dele ser a mesma da minha, e se é a minha talvez seja a sua também, já que ambos viemos lá de cima, talvez lá esteja a nossa resposta.”</p>
+
+    </div>
+
+    <p>A ideia de se expor a uma sociedade era aterradora, a garota já estava alarmada apenas pelo ambiente desconhecido, mas a ideia da solidão nesse tal desconhecido parecia uma sentença ainda pior. </p>
+
+    <div class="notion-quote">
+        <span class="notion-speaker"><span style="color: #940aaf;">Nyev</span></span>
+        <p>E se apenas ficássemos aqui? Eu sinto que essa quietude da floresta já é o suficiente… Eu não preciso saber a verdade do mundo para vivê-lo</p>
+    </div>
+
+    <p>O garoto estufou o peito, o orgulho inato mascarando qualquer insegurança que pudesse corroer sua mente o movia atrás desta vila, ele sentia que tinha que estar lá.</p>
+
+    <div class="notion-quote">
+        <span class="notion-speaker"><span style="color: #300aa3;">Imra</span></span>
+        <p>Eu serei seu escudo, Nyev, como fui enquanto você dormia por todo este tempo, ninguém irá encostar em você. Eu sei que precisamos disso.</p>
+
+    </div>
+
+    <p>Ela não retrucou, refém de seu próprio medo de ser deixada nesse mundo estranho, apenas assentiu, guardando o futuro em silêncio.</p>
+    <p>A jornada foi excruciante, Nyev tropeçava em raízes e pedras, deixando evidente que vida agitada não era para si. Ela tentava pedir desculpas por atrasar a viagem, tentava compensar procurando frutas para comerem, mas quem acabava achando a maioria era quase sempre o garoto, inevitável já que ele teve mais tempo acordado para entender esta flora. Assim, o garoto, por sua vez, marchava à frente com uma postura resoluta, quando finalmente avistaram os contornos rústicos de Cinzavela, o alívio que deveria tê-los inundado foi rapidamente substituído por uma sensação fúnebre, ao menos para a garota de cabelos rosa.</p>
+    
+
+
+</p>
+</div>
 `;
