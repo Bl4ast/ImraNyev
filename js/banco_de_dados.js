@@ -188,6 +188,18 @@ const personagens = {
         cap7_music: '',
         cap7_texto: nyev_cap7_texto,
 
+         // DADOS CAPÍTULO 8
+        cap8_bg_wallpaper: 'Imagens LoreBGNY/GalaxiaRosa.jpg',
+        cap8_bg_color: '#360620b3',
+        cap8_cover: 'Imagens LoreBGNY/GalaxiaRosa.jpg',
+        cap8_icon: 'Imagens LoreBGNY/EstrelaRosa.jpg', 
+        cap8_titulo: 'Capítulo VIII - O Silêncio e o Novo Firmamento',
+        cap8_color: '#FF1493',
+        cap8_glow: 'rgba(255, 20, 147, 0.7)',
+        cap8_music: '', 
+        cap8_texto: nyev_cap8_texto,
+
+
 
 
 
