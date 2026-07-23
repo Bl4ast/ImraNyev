@@ -1,13 +1,14 @@
 const nyev_curiosidades = [
-    'Curiosidade 1',
-    'Curiosidade 2'
+    'Toda sua criação se deu em volta da música "Tears on my pillow" do grupo Baby DONT Cry, que tem uma abordagem sensível sobre a dor, transformando esse sentimento em uma mensagem de esperança. É uma música que eu realmente vejo se ressoando com a Nyev em um geral;',
+    'Por coincidência, criei a Nyev três dias antes do anúncio da raça dos cadentes, coloquei até a estrela preta antes de saber e,  inicialmente, eu nem planejava usá-la, mas assim que vi a raça sabia que tinha que ser ela;',
+    'Curiosidade 3'
 ];
 
 const nyev_qa = [
     { q: 'Acredita em finais felizes?', a: 'Acredito que toda alma merece um final que lhe traga paz no espírito.' },
     { q: 'Acredita em amor à primeira vista?', a: 'Claro, fomos feitos para amar o outro, especialmente aqueles com que temos uma conexão única.' },
     { q: 'O que a faz se sentir envergonhada?', a: 'Não sei ao certo... Acho que fico meio tímida quando me elogiam em voz alta, parece meio irreal alguém querendo fazer isso por vontade própria, também não me sinto tão confortável quando preciso falar perto de muita gente, é estranha a sensação de tantos olhares apontados em minha direção.' },
-    { q: 'Qual a coisa mais bela que já viu?', a: '-' },
+    { q: 'Qual a coisa mais bela que já viu?', a: 'Os raios de sol quando cheguei na casa de Zisel, onde eu podia ver ela e o Imra me chamando, aquele nascer do sol foi especialmente belo' },
     { q: 'O que considera bonito nos outros?', a: 'Sinceridade, gosto quando os outros a minha volta são sinceros com seus próprios sentimentos, eu queria conseguir ser como eles, faz eu me sentir inspirada para tentar alcançar o nível deles.' },
     { q: 'Você cumpre suas promessas?', a: 'Eu sempre dou meu máximo para cumprir elas, mas às vezes falo segredos que deveriam ficar guardados apenas no meu coração... Mas nunca de propósito!' },
     { q: 'Qual seu maior medo?', a: 'É difícil apontar somente um, tenho medo de várias coisas para ser sincera, ficar sozinha é um deles, me sinto abandonada, não sei se deveria falar os outros para ser sincera, tenho medo de ser julgada...' },
