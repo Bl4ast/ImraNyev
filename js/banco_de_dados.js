@@ -177,6 +177,19 @@ const personagens = {
         cap6_texto: nyev_cap6_texto,
 
 
+        // DADOS CAPÍTULO 7
+        cap7_bg_wallpaper: 'Imagens LoreBGNY/L2.jpg', 
+        cap7_bg_color: '#333d263f', 
+        cap7_cover: 'Imagens LoreBGNY/L2.jpg',
+        cap7_icon: '', 
+        cap7_titulo: 'Capítulo VII - O Acordo, o Perdão e a Queda Silenciosa',
+        cap7_color: '#5C001E', 
+        cap7_glow: '#5C001E',
+        cap7_music: '',
+        cap7_texto: nyev_cap7_texto,
+
+
+
 
         pers_titulo: '✩₊˚.⋆☾⋆⁺₊✧',
         pers_subtitulo: 'Personalidade',
