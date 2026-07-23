@@ -148,7 +148,7 @@ const personagens = {
         cap4_bg_color: '#2c1f1a7d', 
         cap4_cover: 'Imagens LoreBGNY/Vila.jpg',
         cap4_icon: '', 
-        cap4_titulo: 'Capítulo VI - A Marcha Rumo à Falsa Glória',
+        cap4_titulo: 'Capítulo IV - A Marcha Rumo à Falsa Glória',
         cap4_color: '#CC5500', 
         cap4_glow: '#CC5500',
         cap4_music: '',
