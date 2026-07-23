@@ -187,12 +187,12 @@ const personagens = {
         
         // INSPIRAÇÕES ATUALIZADAS
         inspiracoes: [
-            { src: 'Imagem Nyev/Bochhi.jpg', desc: 'TESTE TESTE' },
-            { src: 'Imagem Nyev/Boku.jpg', desc: 'TESTE TESTE' },
-            { src: 'Imagem Nyev/Rosinha.jpg', desc: 'TESTE TESTE' },
-            { src: 'Imagem Nyev/Mia.jpg', desc: 'TESTE TESTE' },
-            { src: 'Imagem Nyev/waguri.png', desc: 'TESTE TESTE' },
-            { src: 'Imagem Nyev/kyomoto.png', desc: 'TESTE TESTE' }
+            { src: 'Imagem Nyev/Bochhi.jpg', desc: 'Bocchi é a inspiração para a Nyev em momentos mais descontraídos, ambas são introvertidas, neuróticas e socialmente ansiosas, mesmo que no fundo tenham a grande necessidade de conexão alheia. A parte mais semelhante entre as duas é o trejeito de que, quando colocadas em situações que requerem grande socialização, elas deixam a ansiedade falar mais alto e acabam pensando demais, criando situações catastróficas em suas mentes.' },
+            { src: 'Imagem Nyev/Boku.jpg', desc: 'O Tamaki foi uma grande inspiração pelo seu senso de justiça e grande respeito pelo esforço que as pessoas botam em suas metas. Ambos gostam de ver o esforço de seus amigos se pagando e não gostam quando esse mesmo esforço é menosprezado.' },
+            { src: 'Imagem Nyev/Rosinha.jpg', desc: 'A Futaba é de longe a minha maior inspiração para a Nyev, ambas têm como características principais sua gentileza e timidez. Quando ficam tímidas ou envergonhadas, costumam tropeçar em suas palavras e diminuir o tom. Mas apesar de tudo, têm o coração acolhedor, leal e que se importa com os outros a sua volta mas, sua falta de credibilidade em si mesmas as fazem não acreditar em seus potenciais, colocando a opinião alheia acima de suas próprias.' },
+            { src: 'Imagem Nyev/Mia.jpg', desc: 'A parte em que Nyev mais se assemelha à Miyamura é a sua diferença de postura dependendo de quem está com. Perto de pessoas próximas, ambos são capazes de ter uma postura mais relaxada, tendo a liberdade de se expressar mais livremente, sem se amarrarem ao peso do desconhecido no social.' },
+            { src: 'Imagem Nyev/waguri.png', desc: 'Kaoru, como a Nyev, preza por uma conexão genuina acima de tudo, sem olhar para os outros aspectos da vida, apenas a alma. As duas também têm dificuldade com suas emoções, tendo dificuldade de se abrir sem antes poder se sentir seguro com a pessoa ao seu lado.' },
+            { src: 'Imagem Nyev/kyomoto.png', desc: 'A relação de admiração da Kyomoto com a Fujino é exatamente como imagino essa parte da relação da Nyev com o Imra, ambas tem uma admiração pura, quase infantil, mas genuína, que as molda constantemente para superarem os medos que afetam suas vidas.' }
         ],
         
         artes: [
