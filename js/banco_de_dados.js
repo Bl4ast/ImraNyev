@@ -98,7 +98,7 @@ const personagens = {
         aniversario: '21/09',
         altura: '1,73m',
         genero: 'Feminino',
-        objetivo: '???',
+        objetivo: 'Ser sua própria pessoa',
         aparencia: nyev_aparencia,
         mbti: 'INFP',
 
@@ -121,7 +121,28 @@ const personagens = {
         cap1_music: '', 
         cap1_texto: nyev_cap1_texto,
 
-       
+    // DADOS CAPÍTULO 2
+        cap2_bg_wallpaper: 'Imagens LoreBGNY/Vagalumes.jpg', 
+        cap2_bg_color: '#09341b93', 
+        cap2_cover: 'Imagens LoreBGNY/FVagalumes.jpg',
+        cap2_icon: '', 
+        cap2_titulo: 'Capítulo II - O Despertar e a Conexão Silenciosa',
+        cap2_color: '#2E3B22', 
+        cap2_glow: '#F4D03F',
+        cap2_music: '', 
+        cap2_texto: nyev_cap2_texto,
+
+        // DADOS CAPÍTULO 3
+        cap3_bg_wallpaper: 'Imagens LoreBGNY/DarkF.jpg', 
+        cap3_bg_color: '#36454f2e', 
+        cap3_cover: 'Imagens LoreBGNY/DarkF.jpg',
+        cap3_icon: '', 
+        cap3_titulo: 'Capítulo III - A Marcha Rumo à Falsa Glória',
+        cap3_color: '#36454F', 
+        cap3_glow: '#8B7355',
+        cap3_music: '',
+        cap3_texto: nyev_cap3_texto,
+
         pers_titulo: '✩₊˚.⋆☾⋆⁺₊✧',
         pers_subtitulo: 'Personalidade',
         pers_texto: nyev_pers_texto,
