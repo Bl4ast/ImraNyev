@@ -283,3 +283,11 @@ const nyev_cap7_texto = `
 
 </div>
 `;
+
+
+const nyev_cap8_texto = `
+<div class="lore-subchapter">
+    <p>Após mais 3 dias de caminhada finalmente chegaram na casa de Zisel, ou talvez o correto seria dizer que o garoto chegou. Exausto de carregar um cadáver por tanto tempo, ele bateu na porta, sua mãe não podia acreditar no que estava vendo quando abriu a porta, suas emoções não conseguiam se conter e as lágrimas começaram a surgir. O filho, porém, exausato fisicamente e mentalmente, apenas andou até o primeiro quarto que viu e colocu Nyev na cama, então, se sentou no chão com a cabeça entre os joelhos e olhou para o nada, sem saber se deveria contemplar algo ou chorar, apenas esperou sua mãe o seguir e o abraçar fortemente.</p>
+    <p> Os dias que passaram foram estranhos, Imra já havia ido a tempos, e Nyev agora havia se juntado a ele, esse sentimento era esquisito, o mundo parecia ter ficado mais silêncio, mas, por algum motivo além da compreensão de ambos, as noites passaram a ser mais estreladas.</p>
+</div>
+`;
