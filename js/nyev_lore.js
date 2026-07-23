@@ -73,9 +73,23 @@ const nyev_cap3_texto = `
 
     <p>Ela não retrucou, refém de seu próprio medo de ser deixada nesse mundo estranho, apenas assentiu, guardando o futuro em silêncio.</p>
     <p>A jornada foi excruciante, Nyev tropeçava em raízes e pedras, deixando evidente que vida agitada não era para si. Ela tentava pedir desculpas por atrasar a viagem, tentava compensar procurando frutas para comerem, mas quem acabava achando a maioria era quase sempre o garoto, inevitável já que ele teve mais tempo acordado para entender esta flora. Assim, o garoto, por sua vez, marchava à frente com uma postura resoluta, quando finalmente avistaram os contornos rústicos de Cinzavela, o alívio que deveria tê-los inundado foi rapidamente substituído por uma sensação fúnebre, ao menos para a garota de cabelos rosa.</p>
+    <p>Ao chegarem cada vez mais perto dos arredores do vilarejo, os aldeões os receberam com sorrisos demasiadamente largos, oferecendo uma hospitalidade que beirava o devocional. Todos ali pareciam vibrar em uma frequência de chamas ardentes e paixões desenfreadas, eles eram calorosos e receptivos com os forasteiros. Circulando entre os devotos, destacava-se um rapaz de rosto marcado por cicatrizes e uma postura carregada, ele exalava uma hostilidade dissimulada, nada condizente com a felicidade excessiva dos moradores à sua volta. Ele observava de longe, olhando para a garota pela primeira vez como quem avalia uma presa indefesa no matadouro, ela sentiu um único e grande arrepio por seu corpo, mas não sabia colocar o dedo no que a fazia se sentir assim, então, tentou apenas focar nas boas vindas, na felicidade de Imra por finalmente chegar à tão prometida verdade.</p>
+    <p> Entretanto, seu medo era visível, sendo ainda mais perceptível quando ela agarrava as mangas de Imra com força. Ele a olhava desentendido, visivelmente dividido entre a própria empolgação e a nítida aflição da companheira. Ele odiava vê-la assustada, mas sua mente estava nublada pela empolgação de ter descoberto algo sobre suas origens o fazia entender aquilo como só a natureza dela, um lado que ele ainda não havia conhecido, apenas tentou acalmar suas preocupações dizendo;</p>
+
+    <div class="notion-quote">
+        <span class="notion-speaker"><span style="color: #300aa3;">Imra</span></span>
+        <p>Eu entendo que o lugar seja novo, Nyev, mas tente respirar. Eu descobri por Zisel que ela tem um filho aqui na vila, e os moradores parecem tratá-lo com muito respeito. Eu só quero que você fique um pouco mais tranquila e confiasse que eu não vou deixar nada te atingir.</p>
+
+    </div>
+
+    <p>Apesar de tentar soar cuidadoso, a impulsividade e a necessidade irreprimível de testar sua própria força falaram mais alto. Ele abriu a porta com cautela, mas deixou os alertas dela para trás, fechando devagar e isolando a garota no epicentro do perigo que a intuição de Nyev temia.</p>
+
+</div>
+`;
+
+const nyev_cap4_texto = `
+<div class="lore-subchapter">
     
-
-
 </p>
 </div>
 `;
