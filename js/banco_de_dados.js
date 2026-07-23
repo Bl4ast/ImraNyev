@@ -143,6 +143,18 @@ const personagens = {
         cap3_music: '',
         cap3_texto: nyev_cap3_texto,
 
+        // DADOS CAPÍTULO 4
+        cap4_bg_wallpaper: 'Imagens LoreBGNY/Vila,jpg', 
+        cap4_bg_color: '#2c1f1a7d', 
+        cap4_cover: 'Imagens LoreBGNY/Vila.jpg',
+        cap4_icon: '', 
+        cap4_titulo: 'Capítulo VI - A Marcha Rumo à Falsa Glória',
+        cap4_color: '#CC5500', 
+        cap4_glow: '#CC5500',
+        cap4_music: '',
+        cap4_texto: nyev_cap4_texto,
+
+
         pers_titulo: '✩₊˚.⋆☾⋆⁺₊✧',
         pers_subtitulo: 'Personalidade',
         pers_texto: nyev_pers_texto,
