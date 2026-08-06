@@ -527,7 +527,7 @@ const imra_cap11_texto = `
         <p>Por que você escolhe a fraqueza?! Minha própria mãe me abandonou por causa dessa mesma fraqueza! Ela fugiu como uma covarde para aquela floresta maldita porque não suportou a nossa verdade... me largou aqui para ser forjado sozinho na cinza e na dor! Eu não vou perder você também. Fique do meu lado!</p>
     </div>
 
-    <p>O tempo pareceu congelar. As palavras ecoaram na mente de Imra, afundando como pedras em um lago silencioso. <i>Uma mãe que fugiu para a floresta... Alguém que não suportou a chama deturpada de Cinzavela...</i> Os olhos introspectivos e assombrados de Zisel cruzaram a memória do garoto das estrelas. Ele olhou para o rosto de <u class="tooltip-word" data-char="aren_perdido_cap11">Aren</u> — não mais como o carrasco implacável, mas enxergando de relance os traços da mulher que lhe deu um teto. As cicatrizes do guerreiro de repente pareceram apenas feridas de um menino abandonado, criado pela crueldade.</p>
+    <p>O tempo pareceu congelar. As palavras ecoaram na mente de Imra, afundando como pedras em um lago silencioso. <i>Uma mãe que fugiu para a floresta... Alguém que não suportou a chama deturpada de Cinzavela...</i> Os olhos introspectivos e assombrados de Zisel cruzaram a memória do garoto das estrelas. Ele olhou para o rosto de <u class="tooltip-word" data-char="aren_perdido_cap11">Aren</u> não mais como o carrasco implacável, mas enxergando de relance os traços da mulher que lhe deu um teto. As cicatrizes do guerreiro de repente pareceram apenas feridas de um menino abandonado, criado pela crueldade.</p>
 
     <p>Aren era o filho perdido de Zisel.</p>
 
