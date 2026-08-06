@@ -7,6 +7,11 @@ let mouseX = window.innerWidth / 2;
 let mouseY = window.innerHeight / 2;
 let rafAgendado = false;
 
+window.atualizarCorMouse = function(cor, glow) {
+    if (cor) document.documentElement.style.setProperty('--theme-color', cor);
+    if (glow) document.documentElement.style.setProperty('--theme-glow', glow);
+};
+
 document.addEventListener('mousemove', (e) => {
     mouseX = e.clientX;
     mouseY = e.clientY;
@@ -76,7 +81,7 @@ document.getElementById('dyn-avatar').addEventListener('click', () => {
     if (avatarClickCount >= 3) {
         const toast = document.getElementById('easter-egg');
         toast.classList.add('show');
-        setTimeout(() => toast.classList.remove('show'), 4000);
+        setTimeout(() => toast.classList.remove('show'), 6000);
         avatarClickCount = 0;
     } else {
         avatarClickTimer = setTimeout(() => { avatarClickCount = 0; }, 1000);
@@ -122,6 +127,10 @@ function carregarPerfil(chavePersonagem) {
     currentLoadedCharacter = chavePersonagem;
     const dados = personagens[chavePersonagem];
     
+    const corBase = chavePersonagem === 'imra' ? '#1E90FF' : '#FF1493';
+    const glowBase = chavePersonagem === 'imra' ? 'rgba(30, 144, 255, 0.7)' : 'rgba(255, 20, 147, 0.7)';
+    window.atualizarCorMouse(corBase, glowBase);
+
     document.getElementById('profile-bg-layer').style.backgroundImage = `url('${dados.perfil_bg}')`;
     document.getElementById('profile-bg-layer').style.filter = dados.perfil_bg_filtros || 'brightness(0.5)';
 
@@ -184,7 +193,10 @@ function carregarPerfil(chavePersonagem) {
             
             const artItem = document.createElement('div');
             artItem.className = 'art-item';
-            artItem.style.backgroundImage = `url('${arte.src}')`;
+            
+            // Corrige os espaços no caminho da arte para o CSS ler sem erro
+            const caminhoArte = arte.src.replace(/ /g, '%20');
+            artItem.style.backgroundImage = `url('${caminhoArte}')`;
             
             artItem.addEventListener('click', () => openLightbox(arte.src, `Arte por @${arte.artist}`)); 
 
@@ -335,39 +347,76 @@ if (btnOpenLore) {
 
 const tooltipEl = document.createElement('div');
 tooltipEl.id = 'lore-tooltip';
-tooltipEl.innerHTML = `
-    <img id="lore-tooltip-img" src="" alt="">
-    <p id="lore-tooltip-desc"></p>
-`;
 document.body.appendChild(tooltipEl);
-
-const tImg = document.getElementById('lore-tooltip-img');
-const tDesc = document.getElementById('lore-tooltip-desc');
 
 document.addEventListener('mouseover', (e) => {
     if (e.target.classList.contains('tooltip-word')) {
-        const imgUrl = e.target.getAttribute('data-img');
-        const descText = e.target.getAttribute('data-desc');
-
-        if (imgUrl && imgUrl !== '') {
-            tImg.src = imgUrl; tImg.style.display = 'block';
-        } else {
-            tImg.style.display = 'none';
+        
+        const charId = e.target.getAttribute('data-char');
+        
+        if (charId && typeof fichasHover !== 'undefined' && fichasHover[charId]) {
+            const ficha = fichasHover[charId];
+            
+            tooltipEl.style.setProperty('--ficha-cor', ficha.cor);
+            
+            let htmlContent = '';
+            
+            if (ficha.img && ficha.img !== '') {
+                htmlContent += `<img id="lore-tooltip-img" src="${ficha.img}" style="border-color: var(--ficha-cor);">`;
+            }
+            
+            htmlContent += `
+                <div class="ficha-header">
+                    <h3 class="ficha-title">${ficha.nome}</h3>
+                </div>
+                
+                <div class="ficha-item"><span class="ficha-label">O que significa para mim:</span> <span class="ficha-value">${ficha.oq_significa_para_mim}</span></div>
+                <div class="ficha-item"><span class="ficha-label">Aparência:</span> <span class="ficha-value">${ficha.aparencia}</span></div>
+                <div class="ficha-item"><span class="ficha-label">Cheiro:</span> <span class="ficha-value">${ficha.cheiro}</span></div>
+                
+                <hr style="border: 0; height: 1px; background: rgba(255,255,255,0.1); margin: 15px 0;">
+                
+                <div class="ficha-item"><span class="ficha-label">Fatos que observei:</span> <span class="ficha-value">"${ficha.fatos_que_observei}"</span></div>
+            `;
+            
+            tooltipEl.innerHTML = htmlContent;
+        } 
+        else {
+            const imgUrl = e.target.getAttribute('data-img');
+            const descText = e.target.getAttribute('data-desc');
+            tooltipEl.style.setProperty('--ficha-cor', 'var(--theme-color)'); 
+            
+            let htmlContent = '';
+            if (imgUrl && imgUrl !== '') htmlContent += `<img id="lore-tooltip-img" src="${imgUrl}">`;
+            htmlContent += `<p id="lore-tooltip-desc">${descText}</p>`;
+            
+            tooltipEl.innerHTML = htmlContent;
         }
-
-        tDesc.innerHTML = descText;
 
         requestAnimationFrame(() => {
             const rect = e.target.getBoundingClientRect(); 
+            const tWidth = tooltipEl.offsetWidth;
+            const tHeight = tooltipEl.offsetHeight;
             
-            let topPos = rect.top - tooltipEl.offsetHeight - 15;
-            let leftPos = rect.left + (rect.width / 2) - (tooltipEl.offsetWidth / 2);
+            let leftPos = rect.left + (rect.width / 2) - (tWidth / 2);
+            let topPos = rect.top - tHeight - 15;
 
-            if (topPos < 10) { topPos = rect.bottom + 15; }
-            if (leftPos < 10) { leftPos = 10; }
-            if (leftPos + tooltipEl.offsetWidth > window.innerWidth - 10) { 
-                leftPos = window.innerWidth - tooltipEl.offsetWidth - 10; 
+            if (leftPos < 10) { 
+                leftPos = 10; 
+            } else if (leftPos + tWidth > window.innerWidth - 10) { 
+                leftPos = window.innerWidth - tWidth - 10; 
             }
+
+            if (topPos < 10) { 
+                topPos = rect.bottom + 15; 
+                if (topPos + tHeight > window.innerHeight - 10) {
+                    topPos = window.innerHeight - tHeight - 10;
+                }
+            } else if (topPos + tHeight > window.innerHeight - 10) {
+                topPos = window.innerHeight - tHeight - 10;
+            }
+
+            if (topPos < 10) topPos = 10;
 
             tooltipEl.style.left = `${leftPos}px`;
             tooltipEl.style.top = `${topPos}px`;
