@@ -7,7 +7,7 @@ const personagens = {
         aniversario: '21/09',
         altura: '1,81m',
         genero: 'Masculino',
-        objetivo: 'SER A ESPADA PERFEITA!!!',
+        objetivo: 'Ser útil para alguém.',
         aparencia: imra_aparencia,
         mbti: 'ENTP',
         
