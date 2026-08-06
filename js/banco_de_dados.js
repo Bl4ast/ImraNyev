@@ -63,6 +63,82 @@ const personagens = {
         cap4_music: '', 
         cap4_texto: imra_cap4_texto,
 
+// DADOS CAPÍTULO 5
+        cap5_bg_wallpaper: 'Imagens LoreBGNY/FVagalumes.jpg', 
+        cap5_bg_color: '#072a2d30', 
+        cap5_cover: 'Imagens LoreBGNY/FVagalumes.jpg',
+        cap5_icon: 'Imagens LoreBGIM/VagaICON.jpg',
+        cap5_titulo: 'Capítulo V - O Encontro com o Medo',
+        cap5_color: '#035331', 
+        cap5_glow: '#07901c',
+        cap5_music: '', 
+        cap5_texto: imra_cap5_texto,
+
+// DADOS CAPÍTULO 6
+        cap6_bg_wallpaper: 'Imagens LoreBGNY/Vila.jpg', 
+        cap6_bg_color: '#072a2d30', 
+        cap6_cover: 'Imagens LoreBGNY/Vila.jpg',
+        cap6_icon: 'Imagens LoreBGIM/FogueiraIcon.jpg',
+        cap6_titulo: 'Capítulo VI - Forja e Sombras',
+        cap6_color: '#CC5500', 
+        cap6_glow: '#CC5500',
+        cap6_music: '', 
+        cap6_texto: imra_cap6_texto,
+
+// DADOS CAPÍTULO 7
+        cap7_bg_wallpaper: 'Imagens LoreBGIM/Patio.jpg', 
+        cap7_bg_color: '#072a2d30', 
+        cap7_cover: 'Imagens LoreBGIM/Patio.jpg',
+        cap7_icon: 'Imagens LoreBGIM/patioicon.jpg',
+        cap7_titulo: 'Capítulo VII - Prova das Cinzas',
+        cap7_color: '#c52d12', 
+        cap7_glow: '#c20202',
+        cap7_music: '', 
+        cap7_texto: imra_cap7_texto,
+
+// DADOS CAPÍTULO 8
+        cap8_bg_wallpaper: 'Imagens LoreBGIM/Beco Sujo.jpg', 
+        cap8_bg_color: '#072a2d30', 
+        cap8_cover: 'Imagens LoreBGIM/Beco Sujo.jpg',
+        cap8_icon: 'Imagens LoreBGNY/DarkF.jpg',
+        cap8_titulo: 'Capítulo VIII - Estrela no Beco',
+        cap8_color: '#3f302d', 
+        cap8_glow: '#443232',
+        cap8_music: '', 
+        cap8_texto: imra_cap8_texto,
+
+// DADOS CAPÍTULO 9
+        cap9_bg_wallpaper: 'Imagens LoreBGIM/Lago.jpg', 
+        cap9_bg_color: '#072a2d30', 
+        cap9_cover: 'Imagens LoreBGIM/Lago.jpg',
+        cap9_icon: 'Logo.jpg',
+        cap9_titulo: 'Capítulo IX - O Pequeno Universo',
+        cap9_color: '#37066f', 
+        cap9_glow: '#280558',
+        cap9_music: '', 
+        cap9_texto: imra_cap9_texto,
+
+// DADOS CAPÍTULO 10
+        cap10_bg_wallpaper: 'Imagens LoreBGIM/Porão.jpg', 
+        cap10_bg_color: '#072a2d30', 
+        cap10_cover: 'Imagens LoreBGIM/Porão.jpg',
+        cap10_icon: 'Imagens LoreBGIM/SimboloI.jpg',
+        cap10_titulo: 'Capítulo X - Porão de Sangue',
+        cap10_color: '#e23613', 
+        cap10_glow: '#f20000',
+        cap10_music: '', 
+        cap10_texto: imra_cap10_texto,
+
+// DADOS CAPÍTULO 11
+        cap11_bg_wallpaper: 'Imagens LoreBGNY/CF.jpg', 
+        cap11_bg_color: '#072a2d30', 
+        cap11_cover: 'Imagens LoreBGNY/CF.jpg',
+        cap11_icon: '',
+        cap11_titulo: 'Capítulo Final - Escudo Estrelar',
+        cap11_color: '#681707', 
+        cap11_glow: '#941515',
+        cap11_music: '', 
+        cap11_texto: imra_cap11_texto,
 
 
 
@@ -86,6 +162,11 @@ const personagens = {
         artes: [
             { src: 'Imagem Imra/Imra Concept Eli.png', artist: 'eli_walker' },
             { src: 'Imagem Imra/Ambos Eli.png', artist: 'eli_walker' },
+            { src: 'Imagem Imra/EueEli.png', artist: 'eli_walker' },
+            { src: 'Imagem Imra/ImraLindu.jpg', artist: 'luhtaki' },
+            { src: 'Imagem Nyev/CorpoInteiroBlast.png', artist: 'Candy' },
+            { src: 'Imagem Nyev/neon_trio_cosplay.png', artist: 'mariroblox' },
+            { src: 'Imagem Nyev/3.png', artist: 'Eli' },
         ],
 
         curiosidades: imra_curiosidades
@@ -144,7 +225,7 @@ const personagens = {
         cap3_texto: nyev_cap3_texto,
 
         // DADOS CAPÍTULO 4
-        cap4_bg_wallpaper: 'Imagens LoreBGNY/Vila,jpg', 
+        cap4_bg_wallpaper: 'Imagens LoreBGNY/Vila.jpg', 
         cap4_bg_color: '#2c1f1a7d', 
         cap4_cover: 'Imagens LoreBGNY/Vila.jpg',
         cap4_icon: '', 
