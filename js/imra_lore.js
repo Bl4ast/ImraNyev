@@ -191,7 +191,7 @@ const imra_cap4_texto = `
 
     <div class="notion-quote">
         <span class="notion-speaker"><span style="color: #081987;">Imra</span></span>
-        <p>Imra! Então era esse o nome que você havia guardado para mim! Ele é incrível, obrigada Zisel. Mas… Eu não entendi essa “verdade”, por que a verdade do outro é verdade para mim e mentira para você?</p>
+        <p>Imra! Então era esse o nome que você havia guardado para mim! Ele é incrível, obrigado Zisel. Mas… Eu não entendi essa “verdade”, por que a verdade do outro é verdade para mim e mentira para você?</p>
     </div>
 
     <p>A mulher ouviu os agradecimentos do garoto com felicidade, afinal, era bom que o nome fosse do agrado do nomeado também, mas, não pode deixar de soltar um riso à pergunta que seguiu a gratidão, talvez ela realmente tivesse sido muito enigmática na maneira de falar. Agora que os dois já haviam passado algumas estações juntos, quem sabe fosse apropriado contar para ele, não tudo, mas o necessário.</p>
